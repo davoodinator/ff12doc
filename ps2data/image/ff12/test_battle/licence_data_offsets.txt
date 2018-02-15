@@ -1,0 +1,363 @@
+LBoard Byte A, LBoard Byte B,Licence,LP Cost,LP Cost (b16),LBDataFull,Byte A (+68b16),Byte B (+18b16),LicenceGroup,??,LP Cost,LicenceGrpSub,LicenceMech,ClassDefault,1A,1B,2A,2B,3A,3B,4A,4B,5A,5B,6A,6B,7A,7B,8A,8B
+00,00,Quickening,50,32,68 19 86 42 32 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,32,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+01,00,Quickening,75,4B,68 19 86 42 4b 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,4b,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+02,00,Quickening,100,64,68 19 86 42 64 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,64,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+03,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+04,00,Quickening,150,96,68 19 86 42 96 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,96,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+05,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+06,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+07,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+08,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+09,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0A,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0B,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0C,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0D,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0E,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0F,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+10,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+11,00,Quickening,125,7D,68 19 86 42 7d 13 02 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff,68,19,86,42,7d,13,02,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+12,00,Belias,20,14,12 18 87 42 14 14 03 00 06 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,12,18,87,42,14,14,03,00,06,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+13,00,Mateus,30,1E,13 18 87 42 1e 14 03 00 07 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,13,18,87,42,1e,14,03,00,07,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+14,00,Adrammelech,25,19,14 18 87 42 23 14 03 00 08 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,14,18,87,42,23,14,03,00,08,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+15,00,Hashmal,50,32,15 18 87 42 32 14 03 00 09 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,15,18,87,42,32,14,03,00,09,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+16,00,Cúchulainn,50,32,16 18 87 42 32 14 03 00 0a 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,16,18,87,42,32,14,03,00,0a,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+17,00,Famfrit,90,5A,17 18 87 42 64 14 03 00 0b 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,17,18,87,42,64,14,03,00,0b,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+18,00,Zalera,25,19,18 18 87 42 1e 14 03 00 0c 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,18,18,87,42,1e,14,03,00,0c,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+19,00,Shemhazai,50,32,19 18 87 42 32 14 03 00 0d 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,19,18,87,42,32,14,03,00,0d,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1A,00,Chaos,90,5A,1a 18 87 42 64 14 03 00 0e 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1a,18,87,42,64,14,03,00,0e,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1B,00,Zeromus,50,32,1b 18 87 42 41 14 03 00 0f 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1b,18,87,42,41,14,03,00,0f,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1C,00,Exodus,50,32,1c 18 87 42 41 14 03 00 10 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1c,18,87,42,41,14,03,00,10,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1D,00,Ultima,90,5A,1d 18 87 42 73 14 03 00 11 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1d,18,87,42,73,14,03,00,11,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1E,00,Zodiark,200,C8,1e 18 87 42 c8 14 03 00 12 01 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1e,18,87,42,c8,14,03,00,12,01,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1F,00,Essentials,1,01,1f 18 80 42 01 12 00 7f 72 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1f,18,80,42,01,12,00,7f,72,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+20,00,Swords 1,15,0F,20 18 80 42 0f 01 00 40 01 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,20,18,80,42,0f,01,00,40,01,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+21,00,Swords 2,25,19,21 18 80 42 19 01 00 12 02 10 03 10 ff ff ff ff ff ff ff ff ff ff ff ff,21,18,80,42,19,01,00,12,02,10,03,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+22,00,Swords 3,35,23,22 18 80 42 23 01 00 00 04 10 05 10 ff ff ff ff ff ff ff ff ff ff ff ff,22,18,80,42,23,01,00,00,04,10,05,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+23,00,Swords 4,50,32,23 18 80 42 32 01 00 00 07 10 08 10 ff ff ff ff ff ff ff ff ff ff ff ff,23,18,80,42,32,01,00,00,07,10,08,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+24,00,Swords 5,55,37,24 18 80 42 37 01 00 00 09 10 0a 10 ff ff ff ff ff ff ff ff ff ff ff ff,24,18,80,42,37,01,00,00,09,10,0a,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+25,00,Swords 6,60,3C,25 18 80 42 3c 01 00 00 0b 10 0c 10 ff ff ff ff ff ff ff ff ff ff ff ff,25,18,80,42,3c,01,00,00,0b,10,0c,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+26,00,Swords 7,70,46,26 18 80 42 46 01 00 00 0d 10 0e 10 ff ff ff ff ff ff ff ff ff ff ff ff,26,18,80,42,46,01,00,00,0d,10,0e,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+27,00,Blood Sword,50,32,27 18 80 42 32 01 00 00 06 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,27,18,80,42,32,01,00,00,06,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+28,00,Greatswords 1,50,32,28 18 80 42 32 01 00 00 12 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,28,18,80,42,32,01,00,00,12,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+29,00,Greatswords 2,70,46,29 18 80 42 46 01 00 00 13 10 14 10 ff ff ff ff ff ff ff ff ff ff ff ff,29,18,80,42,46,01,00,00,13,10,14,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2A,00,Greatswords 3,80,50,2a 18 80 42 50 01 00 00 16 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,2a,18,80,42,50,01,00,00,16,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2B,00,Excalibur,135,87,2b 18 80 42 87 01 00 00 17 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,2b,18,80,42,87,01,00,00,17,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2C,00,Tournesol,225,E1,2c 18 80 42 e1 01 00 00 18 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,2c,18,80,42,e1,01,00,00,18,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2D,00,Katana 1,35,23,2d 18 80 42 23 01 00 00 19 10 1a 10 ff ff ff ff ff ff ff ff ff ff ff ff,2d,18,80,42,23,01,00,00,19,10,1a,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2E,00,Katana 2,50,32,2e 18 80 42 32 01 00 00 1b 10 1c 10 ff ff ff ff ff ff ff ff ff ff ff ff,2e,18,80,42,32,01,00,00,1b,10,1c,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2F,00,Katana 3,70,46,2f 18 80 42 46 01 00 00 1d 10 1e 10 ff ff ff ff ff ff ff ff ff ff ff ff,2f,18,80,42,46,01,00,00,1d,10,1e,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+30,00,Katana 4,90,5A,30 18 80 42 5a 01 00 00 1f 10 20 10 ff ff ff ff ff ff ff ff ff ff ff ff,30,18,80,42,5a,01,00,00,1f,10,20,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+31,00,Masamune,130,82,31 18 80 42 82 01 00 00 22 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,31,18,80,42,82,01,00,00,22,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+32,00,Ninja Swords 1,100,64,32 18 80 42 64 03 00 00 23 10 24 10 25 10 28 10 ff ff ff ff ff ff ff ff,32,18,80,42,64,03,00,00,23,10,24,10,25,10,28,10,ff,ff,ff,ff,ff,ff,ff,ff
+33,00,Ninja Swords 2,120,78,33 18 80 42 78 03 00 00 27 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,33,18,80,42,78,03,00,00,27,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+34,00,Yagyu Darkblade & Mesa,180,B4,34 18 80 42 b4 03 00 00 29 10 ab 10 ff ff ff ff ff ff ff ff ff ff ff ff,34,18,80,42,b4,03,00,00,29,10,ab,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+35,00,Spears 1,20,14,35 18 80 42 14 01 00 00 2a 10 2b 10 ff ff ff ff ff ff ff ff ff ff ff ff,35,18,80,42,14,01,00,00,2a,10,2b,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+36,00,Spears 2,25,19,36 18 80 42 19 01 00 00 2c 10 2d 10 ff ff ff ff ff ff ff ff ff ff ff ff,36,18,80,42,19,01,00,00,2c,10,2d,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+37,00,Spears 3,35,23,37 18 80 42 23 01 00 00 2e 10 2f 10 ff ff ff ff ff ff ff ff ff ff ff ff,37,18,80,42,23,01,00,00,2e,10,2f,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+38,00,Spears 4,50,32,38 18 80 42 32 01 00 00 30 10 31 10 ff ff ff ff ff ff ff ff ff ff ff ff,38,18,80,42,32,01,00,00,30,10,31,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+39,00,Spears 5,60,3C,39 18 80 42 3c 01 00 00 32 10 33 10 ff ff ff ff ff ff ff ff ff ff ff ff,39,18,80,42,3c,01,00,00,32,10,33,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3A,00,Dragon Whisker,70,46,3a 18 80 42 46 01 00 00 34 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,3a,18,80,42,46,01,00,00,34,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3B,00,Zodiac Spear,240,F0,3b 18 80 42 f0 01 00 00 35 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,3b,18,80,42,f0,01,00,00,35,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3C,00,Poles 1,20,14,3c 18 80 42 14 03 00 00 36 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,3c,18,80,42,14,03,00,00,36,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3D,00,Poles 2,30,1E,3d 18 80 42 1e 03 00 00 37 10 38 10 ff ff ff ff ff ff ff ff ff ff ff ff,3d,18,80,42,1e,03,00,00,37,10,38,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3E,00,Poles 3,35,23,3e 18 80 42 23 03 00 00 39 10 3a 10 ff ff ff ff ff ff ff ff ff ff ff ff,3e,18,80,42,23,03,00,00,39,10,3a,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3F,00,Poles 4,40,28,3f 18 80 42 28 03 00 00 3b 10 3c 10 ff ff ff ff ff ff ff ff ff ff ff ff,3f,18,80,42,28,03,00,00,3b,10,3c,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+40,00,Poles 5,50,32,40 18 80 42 32 03 00 00 3d 10 3e 10 ff ff ff ff ff ff ff ff ff ff ff ff,40,18,80,42,32,03,00,00,3d,10,3e,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+41,00,Whale Whisker,90,5A,41 18 80 42 5a 03 00 00 41 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,41,18,80,42,5a,03,00,00,41,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+42,00,Bows 1,20,14,42 18 80 42 14 01 00 04 42 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,42,18,80,42,14,01,00,04,42,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+43,00,Bows 2,30,1E,43 18 80 42 1e 01 00 00 43 10 44 10 ff ff ff ff ff ff ff ff ff ff ff ff,43,18,80,42,1e,01,00,00,43,10,44,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+44,00,Bows 3,35,23,44 18 80 42 23 01 00 00 45 10 46 10 ff ff ff ff ff ff ff ff ff ff ff ff,44,18,80,42,23,01,00,00,45,10,46,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+45,00,Bows 4,45,2D,45 18 80 42 2d 01 00 00 47 10 48 10 ff ff ff ff ff ff ff ff ff ff ff ff,45,18,80,42,2d,01,00,00,47,10,48,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+46,00,Bows 5,60,3C,46 18 80 42 3c 01 00 00 49 10 4a 10 ff ff ff ff ff ff ff ff ff ff ff ff,46,18,80,42,3c,01,00,00,49,10,4a,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+47,00,Bows 6,70,46,47 18 80 42 46 01 00 00 4b 10 4c 10 ff ff ff ff ff ff ff ff ff ff ff ff,47,18,80,42,46,01,00,00,4b,10,4c,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+48,00,Sagittarius,130,82,48 18 80 42 82 01 00 00 4f 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,48,18,80,42,82,01,00,00,4f,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+49,00,Crossbows 1,25,19,49 18 80 42 19 03 00 00 50 10 51 10 ff ff ff ff ff ff ff ff ff ff ff ff,49,18,80,42,19,03,00,00,50,10,51,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4A,00,Crossbows 2,40,28,4a 18 80 42 28 03 00 00 52 10 53 10 ff ff ff ff ff ff ff ff ff ff ff ff,4a,18,80,42,28,03,00,00,52,10,53,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4B,00,Crossbows 3,60,3C,4b 18 80 42 3c 03 00 00 54 10 55 10 ff ff ff ff ff ff ff ff ff ff ff ff,4b,18,80,42,3c,03,00,00,54,10,55,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4C,00,Crossbows 4,115,73,4c 18 80 42 73 03 00 00 56 10 b0 10 ff ff ff ff ff ff ff ff ff ff ff ff,4c,18,80,42,73,03,00,00,56,10,b0,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4D,00,Guns 1,30,1E,4d 18 80 42 1e 03 00 08 57 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,4d,18,80,42,1e,03,00,08,57,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4E,00,Guns 2,50,32,4e 18 80 42 32 03 00 00 58 10 59 10 ff ff ff ff ff ff ff ff ff ff ff ff,4e,18,80,42,32,03,00,00,58,10,59,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4F,00,Guns 3,60,3C,4f 18 80 42 3c 03 00 00 5a 10 5b 10 ff ff ff ff ff ff ff ff ff ff ff ff,4f,18,80,42,3c,03,00,00,5a,10,5b,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+50,00,Guns 4,70,46,50 18 80 42 46 03 00 00 5c 10 5d 10 ff ff ff ff ff ff ff ff ff ff ff ff,50,18,80,42,46,03,00,00,5c,10,5d,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+51,00,Guns 5,90,5A,51 18 80 42 5a 03 00 00 5e 10 5f 10 ff ff ff ff ff ff ff ff ff ff ff ff,51,18,80,42,5a,03,00,00,5e,10,5f,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+52,00,Guns 6,110,6E,52 18 80 42 6e 03 00 00 60 10 61 10 ff ff ff ff ff ff ff ff ff ff ff ff,52,18,80,42,6e,03,00,00,60,10,61,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+53,00,Axes & Hammers 1,20,14,53 18 80 42 14 01 00 00 62 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,53,18,80,42,14,01,00,00,62,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+54,00,Axes & Hammers 2,25,19,54 18 80 42 19 01 00 00 69 10 63 10 ff ff ff ff ff ff ff ff ff ff ff ff,54,18,80,42,19,01,00,00,69,10,63,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+55,00,Axes & Hammers 3,35,23,55 18 80 42 23 01 00 00 6a 10 64 10 ff ff ff ff ff ff ff ff ff ff ff ff,55,18,80,42,23,01,00,00,6a,10,64,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+56,00,Axes & Hammers 4,50,32,56 18 80 42 32 01 00 00 6b 10 65 10 ff ff ff ff ff ff ff ff ff ff ff ff,56,18,80,42,32,01,00,00,6b,10,65,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+57,00,Axes & Hammers 5,60,3C,57 18 80 42 3c 01 00 00 66 10 6c 10 ff ff ff ff ff ff ff ff ff ff ff ff,57,18,80,42,3c,01,00,00,66,10,6c,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+58,00,Axes & Hammers 6,65,41,58 18 80 42 41 01 00 00 67 10 68 10 ff ff ff ff ff ff ff ff ff ff ff ff,58,18,80,42,41,01,00,00,67,10,68,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+59,00,Axes & Hammers 7,85,55,59 18 80 42 55 01 00 00 6d 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,59,18,80,42,55,01,00,00,6d,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5A,00,Daggers 1,15,0F,5a 18 80 42 0f 03 00 21 6e 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,5a,18,80,42,0f,03,00,21,6e,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5B,00,Daggers 2,20,14,5b 18 80 42 14 03 00 00 6f 10 70 10 ff ff ff ff ff ff ff ff ff ff ff ff,5b,18,80,42,14,03,00,00,6f,10,70,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5C,00,Daggers 3,35,23,5c 18 80 42 23 03 00 00 71 10 72 10 ff ff ff ff ff ff ff ff ff ff ff ff,5c,18,80,42,23,03,00,00,71,10,72,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5D,00,Daggers 4,45,2D,5d 18 80 42 2d 03 00 00 73 10 74 10 ff ff ff ff ff ff ff ff ff ff ff ff,5d,18,80,42,2d,03,00,00,73,10,74,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5E,00,Daggers 5,60,3C,5e 18 80 42 3c 03 00 00 75 10 76 10 ff ff ff ff ff ff ff ff ff ff ff ff,5e,18,80,42,3c,03,00,00,75,10,76,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5F,00,Shikari Nagasa & Mina,220,DC,5f 18 80 42 dc 03 00 00 78 10 ac 10 ff ff ff ff ff ff ff ff ff ff ff ff,5f,18,80,42,dc,03,00,00,78,10,ac,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+60,00,Rods 1,20,14,60 18 80 42 14 02 00 00 79 10 7a 10 ff ff ff ff ff ff ff ff ff ff ff ff,60,18,80,42,14,02,00,00,79,10,7a,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+61,00,Rods 2,30,1E,61 18 80 42 1e 02 00 00 7b 10 7c 10 ff ff ff ff ff ff ff ff ff ff ff ff,61,18,80,42,1e,02,00,00,7b,10,7c,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+62,00,Rods 3,40,28,62 18 80 42 28 02 00 00 7d 10 7e 10 ff ff ff ff ff ff ff ff ff ff ff ff,62,18,80,42,28,02,00,00,7d,10,7e,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+63,00,Rods 4,50,32,63 18 80 42 32 02 00 00 7f 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,63,18,80,42,32,02,00,00,7f,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+64,00,Rod of Faith,130,82,64 18 80 42 82 02 00 00 80 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,64,18,80,42,82,02,00,00,80,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+65,00,Staves 1,15,0F,65 18 80 42 0f 02 00 00 81 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,65,18,80,42,0f,02,00,00,81,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+66,00,Staves 2,25,19,66 18 80 42 19 02 00 00 82 10 83 10 ff ff ff ff ff ff ff ff ff ff ff ff,66,18,80,42,19,02,00,00,82,10,83,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+67,00,Staves 3,30,1E,67 18 80 42 1e 02 00 00 84 10 85 10 ff ff ff ff ff ff ff ff ff ff ff ff,67,18,80,42,1e,02,00,00,84,10,85,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+68,00,Staves 4,40,28,68 18 80 42 28 02 00 00 86 10 87 10 ff ff ff ff ff ff ff ff ff ff ff ff,68,18,80,42,28,02,00,00,86,10,87,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+69,00,Staff of the Magi,110,6E,69 18 80 42 6e 02 00 00 8a 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,69,18,80,42,6e,02,00,00,8a,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+6A,00,Maces 1,30,1E,6a 18 80 42 1e 02 00 00 8b 10 8c 10 ff ff ff ff ff ff ff ff ff ff ff ff,6a,18,80,42,1e,02,00,00,8b,10,8c,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+6B,00,Maces 2,40,28,6b 18 80 42 28 02 00 00 8d 10 8e 10 ff ff ff ff ff ff ff ff ff ff ff ff,6b,18,80,42,28,02,00,00,8d,10,8e,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+6C,00,Maces 3,60,3C,6c 18 80 42 3c 02 00 00 8f 10 90 10 ff ff ff ff ff ff ff ff ff ff ff ff,6c,18,80,42,3c,02,00,00,8f,10,90,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+6D,00,Maces 4,80,50,6d 18 80 42 50 02 00 00 91 10 92 10 ff ff ff ff ff ff ff ff ff ff ff ff,6d,18,80,42,50,02,00,00,91,10,92,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+6E,00,Maces 5,130,82,6e 18 80 42 82 02 00 00 93 10 af 10 ff ff ff ff ff ff ff ff ff ff ff ff,6e,18,80,42,82,02,00,00,93,10,af,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+6F,00,Measures 1,40,28,6f 18 80 42 28 02 00 00 94 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,6f,18,80,42,28,02,00,00,94,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+70,00,Measures 2,50,32,70 18 80 42 32 02 00 00 95 10 96 10 ff ff ff ff ff ff ff ff ff ff ff ff,70,18,80,42,32,02,00,00,95,10,96,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+71,00,Measures 3,70,46,71 18 80 42 46 02 00 00 97 10 98 10 ff ff ff ff ff ff ff ff ff ff ff ff,71,18,80,42,46,02,00,00,97,10,98,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+72,00,Hand-bmbs 1,35,23,72 18 80 42 23 03 00 00 9a 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,72,18,80,42,23,03,00,00,9a,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+73,00,Hand-bmbs 2,55,37,73 18 80 42 37 03 00 00 9b 10 9c 10 ff ff ff ff ff ff ff ff ff ff ff ff,73,18,80,42,37,03,00,00,9b,10,9c,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+74,00,Hand-bmbs 3,75,4B,74 18 80 42 4b 03 00 00 9d 10 9e 10 ff ff ff ff ff ff ff ff ff ff ff ff,74,18,80,42,4b,03,00,00,9d,10,9e,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+75,00,Shields 1,15,0F,75 18 82 42 0f 07 00 52 c9 10 ca 10 ff ff ff ff ff ff ff ff ff ff ff ff,75,18,82,42,0f,07,00,52,c9,10,ca,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+76,00,Shields 2,20,14,76 18 82 42 14 07 00 00 cb 10 cc 10 ff ff ff ff ff ff ff ff ff ff ff ff,76,18,82,42,14,07,00,00,cb,10,cc,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+77,00,Shields 3,25,19,77 18 82 42 19 07 00 00 ce 10 cf 10 d0 10 ff ff ff ff ff ff ff ff ff ff,77,18,82,42,19,07,00,00,ce,10,cf,10,d0,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+78,00,Shields 4,30,1E,78 18 82 42 1e 07 00 00 d1 10 d2 10 d3 10 ff ff ff ff ff ff ff ff ff ff,78,18,82,42,1e,07,00,00,d1,10,d2,10,d3,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+79,00,Shields 5,35,23,79 18 82 42 23 07 00 00 d4 10 d6 10 ff ff ff ff ff ff ff ff ff ff ff ff,79,18,82,42,23,07,00,00,d4,10,d6,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+7A,00,Shields 6,40,28,7a 18 82 42 28 07 00 00 d7 10 d8 10 ff ff ff ff ff ff ff ff ff ff ff ff,7a,18,82,42,28,07,00,00,d7,10,d8,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+7B,00,Ensanguined Shield,100,64,7b 18 82 42 64 07 00 00 db 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,7b,18,82,42,64,07,00,00,db,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+7C,00,Shell Shield,90,5A,7c 18 82 42 5a 07 00 00 cd 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,7c,18,82,42,5a,07,00,00,cd,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+7D,00,Zodiac Eschutcheon,235,EB,7d 18 82 42 eb 07 00 00 da 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,7d,18,82,42,eb,07,00,00,da,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+7E,00,Heavy Armor 1,25,19,7e 18 81 42 19 04 00 52 06 11 07 11 42 11 43 11 ff ff ff ff ff ff ff ff,7e,18,81,42,19,04,00,52,06,11,07,11,42,11,43,11,ff,ff,ff,ff,ff,ff,ff,ff
+7F,00,Heavy Armor 2,30,1E,7f 18 81 42 1e 04 00 00 08 11 09 11 44 11 45 11 ff ff ff ff ff ff ff ff,7f,18,81,42,1e,04,00,00,08,11,09,11,44,11,45,11,ff,ff,ff,ff,ff,ff,ff,ff
+80,00,Heavy Armor 3,35,23,80 18 81 42 23 04 00 00 0a 11 0b 11 46 11 47 11 ff ff ff ff ff ff ff ff,80,18,81,42,23,04,00,00,0a,11,0b,11,46,11,47,11,ff,ff,ff,ff,ff,ff,ff,ff
+81,00,Heavy Armor 4,40,28,81 18 81 42 28 04 00 00 0c 11 0d 11 48 11 49 11 ff ff ff ff ff ff ff ff,81,18,81,42,28,04,00,00,0c,11,0d,11,48,11,49,11,ff,ff,ff,ff,ff,ff,ff,ff
+82,00,Heavy Armor 5,50,32,82 18 81 42 32 04 00 00 0e 11 0f 11 4a 11 4b 11 ff ff ff ff ff ff ff ff,82,18,81,42,32,04,00,00,0e,11,0f,11,4a,11,4b,11,ff,ff,ff,ff,ff,ff,ff,ff
+83,00,Heavy Armor 6,55,37,83 18 81 42 37 04 00 00 10 11 ff ff 4c 11 ff ff ff ff ff ff ff ff ff ff,83,18,81,42,37,04,00,00,10,11,ff,ff,4c,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+84,00,Heavy Armor 7,60,3C,84 18 81 42 3c 04 00 00 11 11 ff ff 4d 11 ff ff ff ff ff ff ff ff ff ff,84,18,81,42,3c,04,00,00,11,11,ff,ff,4d,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+85,00,Heavy Armor 8,65,41,85 18 81 42 41 04 00 00 12 11 ff ff 4e 11 ff ff ff ff ff ff ff ff ff ff,85,18,81,42,41,04,00,00,12,11,ff,ff,4e,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+86,00,Heavy Armor 9,70,46,86 18 81 42 46 04 00 00 13 11 ff ff 4f 11 ff ff ff ff ff ff ff ff ff ff,86,18,81,42,46,04,00,00,13,11,ff,ff,4f,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+87,00,Heavy Armor 10,80,50,87 18 81 42 50 04 00 00 14 11 ff ff 50 11 ff ff ff ff ff ff ff ff ff ff,87,18,81,42,50,04,00,00,14,11,ff,ff,50,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+88,00,Genji Armor,190,BE,88 18 81 42 be 04 00 00 d5 10 15 11 51 11 64 11 ff ff ff ff ff ff ff ff,88,18,81,42,be,04,00,00,d5,10,15,11,51,11,64,11,ff,ff,ff,ff,ff,ff,ff,ff
+89,00,Light Armor 1,10,0A,89 18 81 42 0a 06 00 41 dc 10 ff ff 18 11 ff ff ff ff ff ff ff ff ff ff,89,18,81,42,0a,06,00,41,dc,10,ff,ff,18,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+8A,00,Light Armor 2,15,0F,8a 18 81 42 0f 06 00 0c dd 10 de 10 19 11 1a 11 ff ff ff ff ff ff ff ff,8a,18,81,42,0f,06,00,0c,dd,10,de,10,19,11,1a,11,ff,ff,ff,ff,ff,ff,ff,ff
+8B,00,Light Armor 3,20,14,8b 18 81 42 14 06 00 00 df 10 e0 10 1b 11 1c 11 ff ff ff ff ff ff ff ff,8b,18,81,42,14,06,00,00,df,10,e0,10,1b,11,1c,11,ff,ff,ff,ff,ff,ff,ff,ff
+8C,00,Light Armor 4,25,19,8c 18 81 42 19 06 00 00 e1 10 e2 10 1d 11 1e 11 ff ff ff ff ff ff ff ff,8c,18,81,42,19,06,00,00,e1,10,e2,10,1d,11,1e,11,ff,ff,ff,ff,ff,ff,ff,ff
+8D,00,Light Armor 5,30,1E,8d 18 81 42 1e 06 00 00 e3 10 e4 10 1f 11 20 11 ff ff ff ff ff ff ff ff,8d,18,81,42,1e,06,00,00,e3,10,e4,10,1f,11,20,11,ff,ff,ff,ff,ff,ff,ff,ff
+8E,00,Light Armor 6,40,28,8e 18 81 42 28 06 00 00 e5 10 e6 10 21 11 22 11 ff ff ff ff ff ff ff ff,8e,18,81,42,28,06,00,00,e5,10,e6,10,21,11,22,11,ff,ff,ff,ff,ff,ff,ff,ff
+8F,00,Light Armor 7,50,32,8f 18 81 42 32 06 00 00 e7 10 e8 10 23 11 24 11 ff ff ff ff ff ff ff ff,8f,18,81,42,32,06,00,00,e7,10,e8,10,23,11,24,11,ff,ff,ff,ff,ff,ff,ff,ff
+90,00,Light Armor 8,60,3C,90 18 81 42 3c 06 00 00 e9 10 ea 10 25 11 26 11 ff ff ff ff ff ff ff ff,90,18,81,42,3c,06,00,00,e9,10,ea,10,25,11,26,11,ff,ff,ff,ff,ff,ff,ff,ff
+91,00,Light Armor 9,70,46,91 18 81 42 46 06 00 00 eb 10 ec 10 27 11 28 11 ff ff ff ff ff ff ff ff,91,18,81,42,46,06,00,00,eb,10,ec,10,27,11,28,11,ff,ff,ff,ff,ff,ff,ff,ff
+92,00,Light Armor 10,75,4B,92 18 81 42 4b 06 00 00 ed 10 ff ff 29 11 ff ff ff ff ff ff ff ff ff ff,92,18,81,42,4b,06,00,00,ed,10,ff,ff,29,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+93,00,Light Armor 11,80,50,93 18 81 42 50 06 00 00 ee 10 ff ff 2a 11 ff ff ff ff ff ff ff ff ff ff,93,18,81,42,50,06,00,00,ee,10,ff,ff,2a,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+94,00,Light Armor 12,90,5A,94 18 81 42 5a 06 00 00 ef 10 ff ff 2b 11 ff ff ff ff ff ff ff ff ff ff,94,18,81,42,5a,06,00,00,ef,10,ff,ff,2b,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+95,00,Mystic Armor 1,10,0A,95 18 81 42 0a 05 00 20 f1 10 f2 10 2d 11 2e 11 ff ff ff ff ff ff ff ff,95,18,81,42,0a,05,00,20,f1,10,f2,10,2d,11,2e,11,ff,ff,ff,ff,ff,ff,ff,ff
+96,00,Mystic Armor 2,15,0F,96 18 81 42 0f 05 00 00 f3 10 f4 10 2f 11 30 11 ff ff ff ff ff ff ff ff,96,18,81,42,0f,05,00,00,f3,10,f4,10,2f,11,30,11,ff,ff,ff,ff,ff,ff,ff,ff
+97,00,Mystic Armor 3,20,14,97 18 81 42 14 05 00 00 f5 10 f6 10 31 11 32 11 ff ff ff ff ff ff ff ff,97,18,81,42,14,05,00,00,f5,10,f6,10,31,11,32,11,ff,ff,ff,ff,ff,ff,ff,ff
+98,00,Mystic Armor 4,25,19,98 18 81 42 19 05 00 00 f7 10 f8 10 33 11 34 11 ff ff ff ff ff ff ff ff,98,18,81,42,19,05,00,00,f7,10,f8,10,33,11,34,11,ff,ff,ff,ff,ff,ff,ff,ff
+99,00,Mystic Armor 5,30,1E,99 18 81 42 1e 05 00 00 f9 10 fa 10 35 11 36 11 ff ff ff ff ff ff ff ff,99,18,81,42,1e,05,00,00,f9,10,fa,10,35,11,36,11,ff,ff,ff,ff,ff,ff,ff,ff
+9A,00,Mystic Armor 6,40,28,9a 18 81 42 28 05 00 00 fb 10 fc 10 37 11 38 11 ff ff ff ff ff ff ff ff,9a,18,81,42,28,05,00,00,fb,10,fc,10,37,11,38,11,ff,ff,ff,ff,ff,ff,ff,ff
+9B,00,Mystic Armor 7,50,32,9b 18 81 42 32 05 00 00 fd 10 fe 10 39 11 3a 11 ff ff ff ff ff ff ff ff,9b,18,81,42,32,05,00,00,fd,10,fe,10,39,11,3a,11,ff,ff,ff,ff,ff,ff,ff,ff
+9C,00,Mystic Armor 8,60,3C,9c 18 81 42 3c 05 00 00 ff 10 00 11 3b 11 3c 11 ff ff ff ff ff ff ff ff,9c,18,81,42,3c,05,00,00,ff,10,00,11,3b,11,3c,11,ff,ff,ff,ff,ff,ff,ff,ff
+9D,00,Mystic Armor 9,70,46,9d 18 81 42 46 05 00 00 01 11 ff ff 3d 11 ff ff ff ff ff ff ff ff ff ff,9d,18,81,42,46,05,00,00,01,11,ff,ff,3d,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+9E,00,Mystic Armor 10,75,4B,9e 18 81 42 4b 05 00 00 02 11 ff ff 3f 11 ff ff ff ff ff ff ff ff ff ff,9e,18,81,42,4b,05,00,00,02,11,ff,ff,3f,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+9F,00,Mystic Armor 11,80,50,9f 18 81 42 50 05 00 00 03 11 ff ff 3e 11 ff ff ff ff ff ff ff ff ff ff,9f,18,81,42,50,05,00,00,03,11,ff,ff,3e,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+A0,00,Mystic Armor 12,90,5A,a0 18 81 42 5a 05 00 00 04 11 ff ff 40 11 ff ff ff ff ff ff ff ff ff ff,a0,18,81,42,5a,05,00,00,04,11,ff,ff,40,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+A1,00,Accessories 1,5,05,a1 18 83 42 05 08 00 00 5b 11 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,a1,18,83,42,05,08,00,00,5b,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+A2,00,Accessories 2,20,14,a2 18 83 42 14 08 00 02 71 11 5a 11 ff ff ff ff ff ff ff ff ff ff ff ff,a2,18,83,42,14,08,00,02,71,11,5a,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+A3,00,Accessories 3,25,19,a3 18 83 42 19 08 00 00 5e 11 5d 11 ff ff ff ff ff ff ff ff ff ff ff ff,a3,18,83,42,19,08,00,00,5e,11,5d,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+A4,00,Accessories 4,35,23,a4 18 83 42 23 08 00 00 77 11 6b 11 ff ff ff ff ff ff ff ff ff ff ff ff,a4,18,83,42,23,08,00,00,77,11,6b,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+A5,00,Accessories 5,35,23,a5 18 83 42 23 08 00 00 68 11 56 11 ff ff ff ff ff ff ff ff ff ff ff ff,a5,18,83,42,23,08,00,00,68,11,56,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+A6,00,Accessories 6,35,23,a6 18 83 42 23 08 00 00 6f 11 69 11 ff ff ff ff ff ff ff ff ff ff ff ff,a6,18,83,42,23,08,00,00,6f,11,69,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+A7,00,Accessories 7,40,28,a7 18 83 42 28 08 00 00 66 11 6c 11 ff ff ff ff ff ff ff ff ff ff ff ff,a7,18,83,42,28,08,00,00,66,11,6c,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+A8,00,Accessories 8,45,2D,a8 18 83 42 2d 08 00 00 62 11 65 11 ff ff ff ff ff ff ff ff ff ff ff ff,a8,18,83,42,2d,08,00,00,62,11,65,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+A9,00,Accessories 9,30,1E,a9 18 83 42 1e 08 00 00 5f 11 76 11 ff ff ff ff ff ff ff ff ff ff ff ff,a9,18,83,42,1e,08,00,00,5f,11,76,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+AA,00,Accessories 10,40,28,aa 18 83 42 28 08 00 00 6a 11 75 11 ff ff ff ff ff ff ff ff ff ff ff ff,aa,18,83,42,28,08,00,00,6a,11,75,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+AB,00,Accessories 11,45,2D,ab 18 83 42 2d 08 00 00 6d 11 63 11 ff ff ff ff ff ff ff ff ff ff ff ff,ab,18,83,42,2d,08,00,00,6d,11,63,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+AC,00,Accessories 12,60,3C,ac 18 83 42 3c 08 00 00 7a 11 7b 11 ff ff ff ff ff ff ff ff ff ff ff ff,ac,18,83,42,3c,08,00,00,7a,11,7b,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+AD,00,Accessories 13,60,3C,ad 18 83 42 3c 08 00 00 60 11 61 11 ff ff ff ff ff ff ff ff ff ff ff ff,ad,18,83,42,3c,08,00,00,60,11,61,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+AE,00,Accessories 14,70,46,ae 18 83 42 46 08 00 00 57 11 59 11 ff ff ff ff ff ff ff ff ff ff ff ff,ae,18,83,42,46,08,00,00,57,11,59,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+AF,00,Accessories 15,70,46,af 18 83 42 46 08 00 00 55 11 70 11 ff ff ff ff ff ff ff ff ff ff ff ff,af,18,83,42,46,08,00,00,55,11,70,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+B0,00,Accessories 16,70,46,b0 18 83 42 46 08 00 00 74 11 7f 11 ff ff ff ff ff ff ff ff ff ff ff ff,b0,18,83,42,46,08,00,00,74,11,7f,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+B1,00,Accessories 17,80,50,b1 18 83 42 50 08 00 00 73 11 80 11 ff ff ff ff ff ff ff ff ff ff ff ff,b1,18,83,42,50,08,00,00,73,11,80,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+B2,00,Accessories 18,80,50,b2 18 83 42 50 08 00 00 72 11 5c 11 ff ff ff ff ff ff ff ff ff ff ff ff,b2,18,83,42,50,08,00,00,72,11,5c,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+B3,00,Accessories 19,100,64,b3 18 83 42 64 08 00 00 6e 11 7c 11 ff ff ff ff ff ff ff ff ff ff ff ff,b3,18,83,42,64,08,00,00,6e,11,7c,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+B4,00,Accessories 20,115,73,b4 18 83 42 73 08 00 00 54 11 79 11 ff ff ff ff ff ff ff ff ff ff ff ff,b4,18,83,42,73,08,00,00,54,11,79,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+B5,00,Ribbon,215,D7,b5 18 83 42 d7 08 00 00 81 11 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,b5,18,83,42,d7,08,00,00,81,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+B6,00,White Magick 1,15,0F,b6 18 84 42 0f 09 00 66 00 00 01 00 ff ff ff ff ff ff ff ff ff ff ff ff,b6,18,84,42,0f,09,00,66,00,00,01,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+B7,00,White Magick 2,20,14,b7 18 84 42 14 09 00 00 02 00 03 00 ff ff ff ff ff ff ff ff ff ff ff ff,b7,18,84,42,14,09,00,00,02,00,03,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+B8,00,White Magick 3,25,19,b8 18 84 42 19 09 00 00 33 00 34 00 ff ff ff ff ff ff ff ff ff ff ff ff,b8,18,84,42,19,09,00,00,33,00,34,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+B9,00,White Magick 4,30,1E,b9 18 84 42 1e 09 00 00 04 00 05 00 ff ff ff ff ff ff ff ff ff ff ff ff,b9,18,84,42,1e,09,00,00,04,00,05,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+BA,00,White Magick 5,40,28,ba 18 84 42 28 09 00 00 0c 00 07 00 ff ff ff ff ff ff ff ff ff ff ff ff,ba,18,84,42,28,09,00,00,0c,00,07,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+BB,00,White Magick 6,50,32,bb 18 84 42 32 09 00 00 06 00 08 00 ff ff ff ff ff ff ff ff ff ff ff ff,bb,18,84,42,32,09,00,00,06,00,08,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+BC,00,White Magick 7,60,3C,bc 18 84 42 3c 09 00 00 09 00 0a 00 ff ff ff ff ff ff ff ff ff ff ff ff,bc,18,84,42,3c,09,00,00,09,00,0a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+BD,00,White Magick 8,70,46,bd 18 84 42 46 09 00 00 45 00 36 00 ff ff ff ff ff ff ff ff ff ff ff ff,bd,18,84,42,46,09,00,00,45,00,36,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+BE,00,Black Magick 1,15,0F,be 18 84 42 0f 0a 00 44 12 00 13 00 ff ff ff ff ff ff ff ff ff ff ff ff,be,18,84,42,0f,0a,00,44,12,00,13,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+BF,00,Black Magick 2,20,14,bf 18 84 42 14 0a 00 40 14 00 39 00 ff ff ff ff ff ff ff ff ff ff ff ff,bf,18,84,42,14,0a,00,40,14,00,39,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+C0,00,Black Magick 3,25,19,c0 18 84 42 19 0a 00 00 15 00 3c 00 ff ff ff ff ff ff ff ff ff ff ff ff,c0,18,84,42,19,0a,00,00,15,00,3c,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+C1,00,Black Magick 4,30,1E,c1 18 84 42 1e 0a 00 00 16 00 3d 00 ff ff ff ff ff ff ff ff ff ff ff ff,c1,18,84,42,1e,0a,00,00,16,00,3d,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+C2,00,Black Magick 5,40,28,c2 18 84 42 28 0a 00 00 17 00 3b 00 ff ff ff ff ff ff ff ff ff ff ff ff,c2,18,84,42,28,0a,00,00,17,00,3b,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+C3,00,Black Magick 6,50,32,c3 18 84 42 32 0a 00 00 18 00 19 00 ff ff ff ff ff ff ff ff ff ff ff ff,c3,18,84,42,32,0a,00,00,18,00,19,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+C4,00,Black Magick 7,60,3C,c4 18 84 42 3c 0a 00 00 1a 00 3e 00 ff ff ff ff ff ff ff ff ff ff ff ff,c4,18,84,42,3c,0a,00,00,1a,00,3e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+C5,00,Black Magick 8,70,46,c5 18 84 42 46 0a 00 00 1b 00 40 00 ff ff ff ff ff ff ff ff ff ff ff ff,c5,18,84,42,46,0a,00,00,1b,00,40,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+C6,00,Time Magick 1,20,14,c6 18 84 42 14 0b 00 00 27 00 28 00 ff ff ff ff ff ff ff ff ff ff ff ff,c6,18,84,42,14,0b,00,00,27,00,28,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+C7,00,Time Magick 2,30,1E,c7 18 84 42 1e 0b 00 00 2f 00 29 00 ff ff ff ff ff ff ff ff ff ff ff ff,c7,18,84,42,1e,0b,00,00,2f,00,29,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+C8,00,Time Magick 3,40,28,c8 18 84 42 28 0b 00 00 47 00 31 00 ff ff ff ff ff ff ff ff ff ff ff ff,c8,18,84,42,28,0b,00,00,47,00,31,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+C9,00,Time Magick 4,50,32,c9 18 84 42 32 0b 00 00 4f 00 24 00 ff ff ff ff ff ff ff ff ff ff ff ff,c9,18,84,42,32,0b,00,00,4f,00,24,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+CA,00,Time Magick 5,60,3C,ca 18 84 42 3c 0b 00 00 2c 00 2a 00 ff ff ff ff ff ff ff ff ff ff ff ff,ca,18,84,42,3c,0b,00,00,2c,00,2a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+CB,00,Time Magick 6,70,46,cb 18 84 42 46 0b 00 00 2b 00 2e 00 ff ff ff ff ff ff ff ff ff ff ff ff,cb,18,84,42,46,0b,00,00,2b,00,2e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+CC,00,Time Magick 7,80,50,cc 18 84 42 50 0b 00 00 25 00 43 00 ff ff ff ff ff ff ff ff ff ff ff ff,cc,18,84,42,50,0b,00,00,25,00,43,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+CD,00,Green Magick 1,40,28,cd 18 84 42 28 0c 00 00 46 00 3a 00 ff ff ff ff ff ff ff ff ff ff ff ff,cd,18,84,42,28,0c,00,00,46,00,3a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+CE,00,Green Magick 2,50,32,ce 18 84 42 32 0c 00 00 49 00 42 00 ff ff ff ff ff ff ff ff ff ff ff ff,ce,18,84,42,32,0c,00,00,49,00,42,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+CF,00,Green Magick 3,90,5A,cf 18 84 42 5a 0c 00 00 4b 00 4a 00 ff ff ff ff ff ff ff ff ff ff ff ff,cf,18,84,42,5a,0c,00,00,4b,00,4a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+D0,00,White Magick 10,90,5A,d0 18 84 42 5a 0c 00 00 0d 00 0f 00 ff ff ff ff ff ff ff ff ff ff ff ff,d0,18,84,42,5a,0c,00,00,0d,00,0f,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+D1,00,White Magick 11,100,64,d1 18 84 42 64 0c 00 00 11 00 10 00 ff ff ff ff ff ff ff ff ff ff ff ff,d1,18,84,42,64,0c,00,00,11,00,10,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+D2,00,White Magick 12,110,6E,d2 18 84 42 6e 0c 00 00 37 00 38 00 ff ff ff ff ff ff ff ff ff ff ff ff,d2,18,84,42,6e,0c,00,00,37,00,38,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+D3,00,White Magick 13,155,9B,d3 18 84 42 9b 0c 00 00 0e 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,d3,18,84,42,9b,0c,00,00,0e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+D4,00,Arcane Magick 1,40,28,d4 18 84 42 28 0d 00 00 4c 00 4d 00 ff ff ff ff ff ff ff ff ff ff ff ff,d4,18,84,42,28,0d,00,00,4c,00,4d,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+D5,00,Arcane Magick 2,50,32,d5 18 84 42 32 0d 00 00 44 00 4e 00 ff ff ff ff ff ff ff ff ff ff ff ff,d5,18,84,42,32,0d,00,00,44,00,4e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+D6,00,Arcane Magick 3,110,6E,d6 18 84 42 6e 0d 00 00 22 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,d6,18,84,42,6e,0d,00,00,22,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+D7,00,Black Magick 11,100,64,d7 18 84 42 64 0d 00 00 1f 00 3f 00 ff ff ff ff ff ff ff ff ff ff ff ff,d7,18,84,42,64,0d,00,00,1f,00,3f,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+D8,00,Black Magick 12,120,78,d8 18 84 42 78 0d 00 00 20 00 21 00 ff ff ff ff ff ff ff ff ff ff ff ff,d8,18,84,42,78,0d,00,00,20,00,21,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+D9,00,Black Magick 13,165,A5,d9 18 84 42 a5 0d 00 00 23 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,d9,18,84,42,a5,0d,00,00,23,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+DA,00,Time Magick 9,100,64,da 18 84 42 64 0d 00 00 30 00 2d 00 ff ff ff ff ff ff ff ff ff ff ff ff,da,18,84,42,64,0d,00,00,30,00,2d,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+DB,00,Warmage,30,1E,db 18 88 42 1e 0f 00 00 14 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,db,18,88,42,1e,0f,00,00,14,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+DC,00,Martyr,30,1E,dc 18 88 42 1e 0f 00 00 15 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,dc,18,88,42,1e,0f,00,00,15,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+DD,00,Inquisitor,30,1E,dd 18 88 42 1e 0f 00 00 56 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,dd,18,88,42,1e,0f,00,00,56,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+DE,00,Headsman,30,1E,de 18 88 42 1e 0f 00 00 17 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,de,18,88,42,1e,0f,00,00,17,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+DF,00,Adrenaline,65,41,df 18 88 42 41 0f 00 00 0a 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,df,18,88,42,41,0f,00,00,0a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+E0,00,Spellbreaker,65,41,e0 18 88 42 41 0f 00 00 08 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,e0,18,88,42,41,0f,00,00,08,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+E1,00,Focus,70,46,e1 18 88 42 46 0f 00 00 0b 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,e1,18,88,42,46,0f,00,00,0b,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+E2,00,Serenity,70,46,e2 18 88 42 46 0f 00 00 67 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,e2,18,88,42,46,0f,00,00,67,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+E3,00,Last Stand,70,46,e3 18 88 42 46 0f 00 00 05 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,e3,18,88,42,46,0f,00,00,05,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+E4,00,Spellbound,30,1E,e4 18 88 42 1e 0f 00 00 1e 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,e4,18,88,42,1e,0f,00,00,1e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+E5,00,Brawler,90,5A,e5 18 88 42 5a 0f 00 00 09 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,e5,18,88,42,5a,0f,00,00,09,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+E6,00,Shield Block,25,19,e6 18 88 42 19 10 00 00 5a 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,e6,18,88,42,19,10,00,00,5a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+E7,00,Shield Block,45,2D,e7 18 88 42 2d 10 00 00 59 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,e7,18,88,42,2d,10,00,00,59,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+E8,00,Shield Block,75,4B,e8 18 88 42 4b 10 00 00 58 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,e8,18,88,42,4b,10,00,00,58,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+E9,00,Channelling,30,1E,e9 18 88 42 1e 10 00 00 5d 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,e9,18,88,42,1e,10,00,00,5d,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+EA,00,Channelling,50,32,ea 18 88 42 32 10 00 00 5c 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,ea,18,88,42,32,10,00,00,5c,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+EB,00,Channelling,80,50,eb 18 88 42 50 10 00 00 5b 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,eb,18,88,42,50,10,00,00,5b,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+EC,00,Swiftness,30,1E,ec 18 88 42 1e 10 00 00 60 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,ec,18,88,42,1e,10,00,00,60,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+ED,00,Swiftness,50,32,ed 18 88 42 32 10 00 00 5f 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,ed,18,88,42,32,10,00,00,5f,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+EE,00,Swiftness,80,50,ee 18 88 42 50 10 00 00 5e 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,ee,18,88,42,50,10,00,00,5e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+EF,00,Remedy Lore 1,20,14,ef 18 88 42 14 10 00 00 76 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,ef,18,88,42,14,10,00,00,76,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+F0,00,Remedy Lore 2,30,1E,f0 18 88 42 1e 10 00 00 75 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,f0,18,88,42,1e,10,00,00,75,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+F1,00,Remedy Lore 3,70,46,f1 18 88 42 46 10 00 00 74 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,f1,18,88,42,46,10,00,00,74,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+F2,00,Potion Lore 1,20,14,f2 18 88 42 14 10 00 00 79 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,f2,18,88,42,14,10,00,00,79,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+F3,00,Potion Lore 2,35,23,f3 18 88 42 23 10 00 00 78 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,f3,18,88,42,23,10,00,00,78,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+F4,00,Potion Lore 3,70,46,f4 18 88 42 46 10 00 00 77 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,f4,18,88,42,46,10,00,00,77,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+F5,00,Ether Lore 1,20,14,f5 18 88 42 14 10 00 00 7c 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,f5,18,88,42,14,10,00,00,7c,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+F6,00,Ether Lore 2,35,23,f6 18 88 42 23 10 00 00 7b 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,f6,18,88,42,23,10,00,00,7b,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+F7,00,Ether Lore 3,70,46,f7 18 88 42 46 10 00 00 7a 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,f7,18,88,42,46,10,00,00,7a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+F8,00,Phoenix Lore,30,1E,f8 18 88 42 1e 10 00 00 7f 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,f8,18,88,42,1e,10,00,00,7f,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+F9,00,Phoenix Lore,50,32,f9 18 88 42 32 10 00 00 7e 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,f9,18,88,42,32,10,00,00,7e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+FA,00,Phoenix Lore,90,5A,fa 18 88 42 5a 10 00 00 7d 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,fa,18,88,42,5a,10,00,00,7d,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+FB,00,Battle Lore,30,1E,fb 18 88 42 1e 11 00 00 40 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,fb,18,88,42,1e,11,00,00,40,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+FC,00,Battle Lore,30,1E,fc 18 88 42 1e 11 00 00 41 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,fc,18,88,42,1e,11,00,00,41,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+FD,00,Battle Lore,30,1E,fd 18 88 42 1e 11 00 00 42 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,fd,18,88,42,1e,11,00,00,42,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+FE,00,Battle Lore,30,1E,fe 18 88 42 1e 11 00 00 43 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,fe,18,88,42,1e,11,00,00,43,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+FF,00,Battle Lore,30,1E,ff 18 88 42 32 11 00 00 44 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,ff,18,88,42,32,11,00,00,44,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+00,01,Magick Lore,30,1E,00 19 88 42 1e 11 00 00 45 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,00,19,88,42,1e,11,00,00,45,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+01,01,Magick Lore,30,1E,01 19 88 42 1e 11 00 00 46 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,01,19,88,42,1e,11,00,00,46,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+02,01,Magick Lore,30,1E,02 19 88 42 1e 11 00 00 47 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,02,19,88,42,1e,11,00,00,47,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+03,01,Magick Lore,30,1E,03 19 88 42 1e 11 00 00 48 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,03,19,88,42,1e,11,00,00,48,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+04,01,Magick Lore,50,32,04 19 88 42 32 11 00 00 49 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,04,19,88,42,32,11,00,00,49,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+05,01,+30 HP,20,14,05 19 88 42 14 11 00 00 4a 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,05,19,88,42,14,11,00,00,4a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+06,01,+70 HP,30,1E,06 19 88 42 1e 11 00 00 4b 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,06,19,88,42,1e,11,00,00,4b,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+07,01,+110 HP,40,28,07 19 88 42 28 11 00 00 4c 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,07,19,88,42,28,11,00,00,4c,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+08,01,+150 HP,50,32,08 19 88 42 32 11 00 00 4d 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,08,19,88,42,32,11,00,00,4d,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+09,01,+190 HP,60,3C,09 19 88 42 3c 11 00 00 4e 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,09,19,88,42,3c,11,00,00,4e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0A,01,Gambit Slot,15,0F,0a 19 89 42 0f 12 00 00 68 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,0a,19,89,42,0f,12,00,00,68,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0B,01,Gambit Slot,20,14,0b 19 89 42 14 12 00 00 69 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,0b,19,89,42,14,12,00,00,69,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0C,01,Gambit Slot,25,19,0c 19 89 42 19 12 00 00 6a 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,0c,19,89,42,19,12,00,00,6a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0D,01,Gambit Slot,30,1E,0d 19 89 42 1e 12 00 00 6b 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,0d,19,89,42,1e,12,00,00,6b,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0E,01,Gambit Slot,35,23,0e 19 89 42 23 12 00 00 6c 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,0e,19,89,42,23,12,00,00,6c,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+0F,01,Gambit Slot,40,28,0f 19 89 42 28 12 00 00 6d 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,0f,19,89,42,28,12,00,00,6d,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+10,01,Gambit Slot,45,2D,10 19 89 42 2d 12 00 00 6e 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,10,19,89,42,2d,12,00,00,6e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+11,01,Gambit Slot,50,32,11 19 89 42 32 12 00 00 6f 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,11,19,89,42,32,12,00,00,6f,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+12,01,Gambit Slot,70,46,12 19 89 42 46 12 00 00 70 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,12,19,89,42,46,12,00,00,70,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+13,01,Gambit Slot,100,64,13 19 89 42 64 12 00 00 71 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,13,19,89,42,64,12,00,00,71,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+14,01,Steal,20,14,14 19 85 42 14 0e 00 0d a9 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,14,19,85,42,14,0e,00,0d,a9,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+15,01,Libra,25,19,15 19 85 42 19 0e 00 10 b1 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,15,19,85,42,19,0e,00,10,b1,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+16,01,First Aid,20,14,16 19 85 42 14 0e 00 28 9e 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,16,19,85,42,14,0e,00,28,9e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+17,01,Poach,30,1E,17 19 85 42 1e 0e 00 00 b2 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,17,19,85,42,1e,0e,00,00,b2,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+18,01,Charge,30,1E,18 19 85 42 1e 0e 00 00 a3 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,18,19,85,42,1e,0e,00,00,a3,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+19,01,Horology,50,32,19 19 85 42 32 0e 00 00 a0 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,19,19,85,42,32,0e,00,00,a0,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1A,01,Souleater,35,23,1a 19 85 42 23 0e 00 00 a5 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1a,19,85,42,23,0e,00,00,a5,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1B,01,Traveler,50,32,1b 19 85 42 32 0e 00 00 b4 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1b,19,85,42,32,0e,00,00,b4,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1C,01,Numerology,40,28,1c 19 85 42 28 0e 00 00 b0 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1c,19,85,42,28,0e,00,00,b0,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1D,01,Shear,50,32,1d 19 85 42 32 0e 00 00 ac 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1d,19,85,42,32,0e,00,00,ac,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1E,01,Achilles,40,28,1e 19 85 42 28 0e 00 00 a2 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1e,19,85,42,28,0e,00,00,a2,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+1F,01,Gil Toss,30,1E,1f 19 85 42 1e 0e 00 00 b5 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,1f,19,85,42,1e,0e,00,00,b5,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+20,01,Charm,30,1E,20 19 85 42 1e 0e 00 00 ad 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,20,19,85,42,1e,0e,00,00,ad,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+21,01,Sight Unseeing,40,28,21 19 85 42 28 0e 00 00 af 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,21,19,85,42,28,0e,00,00,af,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+22,01,Infuse,30,1E,22 19 85 42 1e 0e 00 00 a4 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,22,19,85,42,1e,0e,00,00,a4,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+23,01,Addle,50,32,23 19 85 42 32 0e 00 00 a7 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,23,19,85,42,32,0e,00,00,a7,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+24,01,Bonecrusher,30,1E,24 19 85 42 1e 0e 00 00 a8 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,24,19,85,42,1e,0e,00,00,a8,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+25,01,Shades of Black,70,46,25 19 85 42 46 0e 00 00 9f 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,25,19,85,42,46,0e,00,00,9f,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+26,01,Stamp,40,28,26 19 85 42 28 0e 00 00 a1 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,26,19,85,42,28,0e,00,00,a1,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+27,01,Expose,50,32,27 19 85 42 32 0e 00 00 ab 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,27,19,85,42,32,0e,00,00,ab,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+28,01,Revive,40,28,28 19 85 42 28 0e 00 00 ae 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,28,19,85,42,28,0e,00,00,ae,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+29,01,1000 Needles,35,23,29 19 85 42 23 0e 00 00 b3 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,29,19,85,42,23,0e,00,00,b3,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2A,01,Wither,50,32,2a 19 85 42 32 0e 00 00 a6 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,2a,19,85,42,32,0e,00,00,a6,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2B,01,Telekenesis,80,50,2b 19 85 42 50 0e 00 00 aa 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,2b,19,85,42,50,0e,00,00,aa,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2C,01,+230 HP,70,46,2c 19 88 42 46 11 00 00 4f 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,2c,19,88,42,46,11,00,00,4f,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2D,01,+270 HP,80,50,2d 19 88 42 50 11 00 00 50 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,2d,19,88,42,50,11,00,00,50,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2E,01,+310 HP,90,5A,2e 19 88 42 5a 11 00 00 51 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,2e,19,88,42,5a,11,00,00,51,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+2F,01,+350 HP,100,64,2f 19 88 42 64 11 00 00 52 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,2f,19,88,42,64,11,00,00,52,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+30,01,+390 HP,115,73,30 19 88 42 73 11 00 00 53 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,30,19,88,42,73,11,00,00,53,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+31,01,+435 HP,130,82,31 19 88 42 82 11 00 00 54 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,31,19,88,42,82,11,00,00,54,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+32,01,+500 HP,220,DC,32 19 88 42 dc 11 00 00 55 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,32,19,88,42,dc,11,00,00,55,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+33,01,Battle Lore,50,32,33 19 88 42 32 11 00 00 23 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,33,19,88,42,32,11,00,00,23,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+34,01,Battle Lore,50,32,34 19 88 42 32 11 00 00 2a 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,34,19,88,42,32,11,00,00,2a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+35,01,Battle Lore,50,32,35 19 88 42 32 11 00 00 2b 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,35,19,88,42,32,11,00,00,2b,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+36,01,Battle Lore,70,46,36 19 88 42 46 11 00 00 2c 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,36,19,88,42,46,11,00,00,2c,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+37,01,Battle Lore,70,46,37 19 88 42 46 11 00 00 2d 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,37,19,88,42,46,11,00,00,2d,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+38,01,Battle Lore,70,46,38 19 88 42 46 11 00 00 2e 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,38,19,88,42,46,11,00,00,2e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+39,01,Battle Lore,70,46,39 19 88 42 46 11 00 00 2f 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,39,19,88,42,46,11,00,00,2f,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3A,01,Battle Lore,100,64,3a 19 88 42 64 11 00 00 3c 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,3a,19,88,42,64,11,00,00,3c,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3B,01,Battle Lore,100,64,3b 19 88 42 64 11 00 00 3d 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,3b,19,88,42,64,11,00,00,3d,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3C,01,Battle Lore,100,64,3c 19 88 42 64 11 00 00 3e 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,3c,19,88,42,64,11,00,00,3e,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3D,01,Battle Lore,100,64,3d 19 88 42 64 11 00 00 3f 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,3d,19,88,42,64,11,00,00,3f,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3E,01,Magick Lore,50,32,3e 19 88 42 32 11 00 00 57 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,3e,19,88,42,32,11,00,00,57,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+3F,01,Magick Lore,50,32,3f 19 88 42 32 11 00 00 61 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,3f,19,88,42,32,11,00,00,61,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+40,01,Magick Lore,50,32,40 19 88 42 32 11 00 00 62 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,40,19,88,42,32,11,00,00,62,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+41,01,Magick Lore,70,46,41 19 88 42 46 11 00 00 63 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,41,19,88,42,46,11,00,00,63,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+42,01,Magick Lore,70,46,42 19 88 42 46 11 00 00 64 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,42,19,88,42,46,11,00,00,64,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+43,01,Magick Lore,70,46,43 19 88 42 46 11 00 00 65 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,43,19,88,42,46,11,00,00,65,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+44,01,Magick Lore,70,46,44 19 88 42 46 11 00 00 66 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,44,19,88,42,46,11,00,00,66,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+45,01,Magick Lore,100,64,45 19 88 42 64 11 00 00 13 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,45,19,88,42,64,11,00,00,13,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+46,01,Magick Lore,100,64,46 19 88 42 64 11 00 00 16 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,46,19,88,42,64,11,00,00,16,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+47,01,Magick Lore,100,64,47 19 88 42 64 11 00 00 18 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,47,19,88,42,64,11,00,00,18,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+48,01,Magick Lore,100,64,48 19 88 42 64 11 00 00 1a 00 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,48,19,88,42,64,11,00,00,1a,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+49,01,Swords 8,80,50,49 19 80 42 50 01 00 00 0f 10 10 10 ff ff ff ff ff ff ff ff ff ff ff ff,49,19,80,42,50,01,00,00,0f,10,10,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4A,01,Swords 9,90,5A,4a 19 80 42 5a 01 00 00 11 10 c2 10 ff ff ff ff ff ff ff ff ff ff ff ff,4a,19,80,42,5a,01,00,00,11,10,c2,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4B,01,Karkata,80,50,4b 19 80 42 50 01 00 00 c0 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,4b,19,80,42,50,01,00,00,c0,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4C,01,Greatswords 4,100,64,4c 19 80 42 64 01 00 00 15 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,4c,19,80,42,64,01,00,00,15,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4D,01,Excalipur,150,96,4d 19 80 42 96 01 00 00 c1 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,4d,19,80,42,96,01,00,00,c1,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4E,01,Katana 5,100,64,4e 19 80 42 64 01 00 00 21 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,4e,19,80,42,64,01,00,00,21,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+4F,01,Kumbha,200,C8,4f 19 80 42 c8 01 00 00 aa 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,4f,19,80,42,c8,01,00,00,aa,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+50,01,Ninja Swords 3,120,78,50 19 80 42 78 03 00 00 26 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,50,19,80,42,78,03,00,00,26,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+51,01,Vrsabha,100,64,51 19 80 42 64 01 00 00 ae 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,51,19,80,42,64,01,00,00,ae,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+52,01,Poles 6,60,3C,52 19 80 42 3c 03 00 00 3f 10 40 10 ff ff ff ff ff ff ff ff ff ff ff ff,52,19,80,42,3c,03,00,00,3f,10,40,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+53,01,Kanya,180,B4,53 19 80 42 b4 03 00 00 c6 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,53,19,80,42,b4,03,00,00,c6,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+54,01,Bows 7,90,5A,54 19 80 42 5a 01 00 00 4d 10 4e 10 ff ff ff ff ff ff ff ff ff ff ff ff,54,19,80,42,5a,01,00,00,4d,10,4e,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+55,01,Dhanusha,200,C8,55 19 80 42 c8 01 00 00 c7 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,55,19,80,42,c8,01,00,00,c7,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+56,01,Mithuna,190,BE,56 19 80 42 be 03 00 00 c5 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,56,19,80,42,be,03,00,00,c5,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+57,01,Vrscika,175,AF,57 19 80 42 af 01 00 00 c4 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,57,19,80,42,af,01,00,00,c4,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+58,01,Daggers 6,80,50,58 19 80 42 50 03 00 00 77 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,58,19,80,42,50,03,00,00,77,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+59,01,Staves 5,65,41,59 19 80 42 41 02 00 00 88 10 89 10 ff ff ff ff ff ff ff ff ff ff ff ff,59,19,80,42,41,02,00,00,88,10,89,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5A,01,Measures 4,100,64,5a 19 80 42 64 02 00 00 99 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,5a,19,80,42,64,02,00,00,99,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5B,01,Makara,105,69,5b 19 80 42 69 03 00 00 c3 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,5b,19,80,42,69,03,00,00,c3,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5C,01,Shields 7,65,41,5c 19 82 42 41 07 00 00 d9 10 ff ff ff ff ff ff ff ff ff ff ff ff ff ff,5c,19,82,42,41,07,00,00,d9,10,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5D,01,Heavy Armor 11,90,5A,5d 19 81 42 5a 04 00 00 16 11 ff ff 52 11 ff ff ff ff ff ff ff ff ff ff,5d,19,81,42,5a,04,00,00,16,11,ff,ff,52,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5E,01,Heavy Armor 12,110,6E,5e 19 81 42 6e 04 00 00 17 11 ff ff 53 11 ff ff ff ff ff ff ff ff ff ff,5e,19,81,42,6e,04,00,00,17,11,ff,ff,53,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+5F,01,Light Armor 13,110,6E,5f 19 81 42 6e 06 00 00 f0 10 ff ff 2c 11 ff ff ff ff ff ff ff ff ff ff,5f,19,81,42,6e,06,00,00,f0,10,ff,ff,2c,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+60,01,Mystic Armor 13,110,6E,60 19 81 42 6e 05 00 00 05 11 ff ff 41 11 ff ff ff ff ff ff ff ff ff ff,60,19,81,42,6e,05,00,00,05,11,ff,ff,41,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+61,01,Accessories 21,130,82,61 19 83 42 82 08 00 00 7d 11 67 11 ff ff ff ff ff ff ff ff ff ff ff ff,61,19,83,42,82,08,00,00,7d,11,67,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+62,01,Accessories 22,160,A0,62 19 83 42 a0 08 00 00 78 11 58 11 ff ff ff ff ff ff ff ff ff ff ff ff,62,19,83,42,a0,08,00,00,78,11,58,11,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+63,01,White Magick 9,80,50,63 19 84 42 50 09 00 00 35 00 0b 00 ff ff ff ff ff ff ff ff ff ff ff ff,63,19,84,42,50,09,00,00,35,00,0b,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+64,01,Black Magick 9,90,5A,64 19 84 42 5a 0a 00 00 1c 00 1d 00 ff ff ff ff ff ff ff ff ff ff ff ff,64,19,84,42,5a,0a,00,00,1c,00,1d,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+65,01,Time Magick 8,90,5A,65 19 84 42 5a 0b 00 00 48 00 32 00 ff ff ff ff ff ff ff ff ff ff ff ff,65,19,84,42,5a,0b,00,00,48,00,32,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+66,01,Black Magick 10,90,5A,66 19 84 42 5a 0c 00 00 1e 00 41 00 ff ff ff ff ff ff ff ff ff ff ff ff,66,19,84,42,5a,0c,00,00,1e,00,41,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+67,01,Time Magick 10,125,7D,67 19 84 42 7d 0d 00 00 50 00 26 00 ff ff ff ff ff ff ff ff ff ff ff ff,67,19,84,42,7d,0d,00,00,50,00,26,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff
+68,01,Second Board,30,1E,,,,,,,,,,,,,,,,,,,,,,,,,
+FF,FF,Blank Space,0,00,,,,,,,,,,,,,,,,,,,,,,,,,
