@@ -2,6 +2,9 @@ VBF Browser @ https://cdn.discordapp.com/attachments/252064925193601024/41048394
 
 Steam discussion thread @ http://steamcommunity.com/app/595520/discussions/0/1700541698690214622/
 
+NexusMods link: (TBD)
+
+
 VBFfolderTemplate.zip - this is a template so you can have all the folders in your personal git dump so that you can easily place readme.txt and other files in teh right place without manually creating the folders.
 
 filedump.txt - a nice clean list of all files if you need it
