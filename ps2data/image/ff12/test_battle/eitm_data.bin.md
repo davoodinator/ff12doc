@@ -18,6 +18,45 @@ __Note:__ It's odd that the header contains information about the item total and
 
 ## Items
 Items are organized in 52 byte structures
+| Byte Reference | Data Type | Data Description | Notes |
+| -------------- | --------- | ---------------- | ----- |
+| `0x00-0x03` | uint | Weapon ID | Add 2048 to get the value in the save editor XML. Some values may not line up correctly due to zodiac items being added |
+| `0x04-0x05` | ushort | Item Type | |
+| `0x06` | uchar | **??** | Follows the grouping of item type **Needs testing** |
+| `0x07` | uchar | **??** | A ENUM of some sort. Follows the power of 4 **Needs Testing** |
+| `0x08` | uchar | Order A | The order in which the item will appear within its item type |
+| `0x09` | uchar | Order B | The order in which the item will appear relative to all other items |
+| `0x0a-0x0f` | uchar[6] | `0x00` Padding | |
+| `0x10` | uchar | Metal Vdalue | The metal value of the item (0x00, 0x01, 0x02, 0x03, 0x05 ) |
+| `0x11` | uchar | **??** | Values are 0x12, 0x17, 0x18, 0x19, 0x12, 0x1a, 0xff **Needs Testing** |
+| `0x12-0x13` | ushort | Gil Value | |
+| `0x14-0x17` | uchar[4] | `0x00` Padding |  Bytes `0x14-0x15` might be related to Gil Value for uint data type |
+| `0x18` | uchar | Shield Evasion / Armor Defense | |
+| `0x19` | uchar | Weapon Damage Formula / Shield M.Eva / Armor M.Resist | See [weapon damage formula section](#weapon-dmg-formula) for specific values |
+| `0x1a` | uchar | Weapon ATK / **??** | Unknown what this does for armor **Needs Testing** |
+| `0x1b` | uchar | Weapon Knockback / **??** | Uknown what this does for armor **Needs Testing** |
+| `0x1c` | uchar | Critical % / Combo Rate | |
+| `0x1d` | uchar | Weapon Evasion | |
+| `0x1e` | uchar | Elemental Effect | See [elemental effects](#elemental-values) for specific values |
+| `0x1f` | uchar | On-Hit Chance % | |
+| `0x20` | uchar | Bad Effect 1 | See [bad status effects group 1](#group-1-1) for specific values |
+| `0x21` | uchar | Bad Effect 2 | See [bad status effects group 2](#group-2-1) for specific values |
+| `0x22` | uchar | Good Effect 1 | See [good status effects group 1](#group-1) for specific values |
+| `0x23` | uchar | Good Effect 2 | See [good status effects group 2](#group-2) for specific values |
+| `0x24` | uchar | **??** | Unknown. Bytes `0x24-0x26` may be related to icon and model **Needs Testing** |
+| `0x25` | uchar | **??** | Unknown, see byte `0x24` |
+| `0x26` | uchar | **??** | Unknown, see byte `0x24` |
+| `0x27` | uchar | CT | |
+| `0x28-0x2b` | uint | Additional Attributes | See [attributes](#attributes) section for more information |
+| `0x2c` | uchar | **??** | Unknown |
+| `0x2d` | uchar | **??** | Values are 0x00 or 0x80 |
+| `0x2e-0x2f` | uchar | `0x00` Padding | See notes for byte `0x30` |
+| `0x30` | uchar | **??** | Bytes `0x2e-0x31` may all be related as a uint **Needs testing** |
+| `0x31` | uchar | **??** | See note above. Values here are either `0x00` or `0x01` |
+| `0x32` | uchar | Render Model | Flag values `0x00` (Invisible) or `0x77` (Visible) |
+| `0x32` | uchar | `0x00` Padding | |
+<details>
+<summary>Table as code block</summary>
 ```
 0x00-0x03 uint weapon_id // If you add 2048 to this number it will match up in the XMLs
 0x04-0x05 ushort item_type // Item Type or Category
@@ -55,9 +94,34 @@ Items are organized in 52 byte structures
 0x32 uchar render_model // 0x00 or 0x77
 0x33 uchar // Padding for 52 byte
 ```
+</details>
 
 ## Attributes
 Item attributes are a 24 byte structure
+| Byte Reference | Data Type | Description | Notes |
+| -------------- | --------- | ----------- | ----- |
+| `0x01-0x02` | ushort | HP | |
+| `0x03-0x04` | ushort | MP | |
+| `0x05` | uchar | STR | |
+| `0x06` | uchar | MAG | |
+| `0x07` | uchar | VIT | |
+| `0x08` | uchar | SPD | |
+| `0x09` | uchar | Equip Bad Statuses Group 1 | See [bad status effects group 1](#group-1-1) |
+| `0x0a` | uchar | Equip Bad Statuses Group 2 | see [bad status effects group 2](#group-2-1) | 
+| `0x0b-0x0c` | uchar | Equip Good Statuses Group 1 | See [good status effects group 1](#group-1) |
+| `0x0b-0x0c` | uchar | Equip Good Statuses Group 2 | See [good status effects group 2](#group-2) |
+| `0x0d` | uchar | Immunities Group 1 | See [bad status effects group 1](#group-1-1) |
+| `0x0e` | uchar | Immunities Group 2 | See [bad status effects group 2](#group-2-1) |
+| `0x0f` | uchar | **??** | Ribbon Flag |
+| `0x10` | uchar | `0x00` Padding | |
+| `0x11` | uchar | Elemntal Absorb | |
+| `0x12` | uchar | Elemental Immune | |
+| `0x13` | uchar | Elemental Half | |
+| `0x14` | uchar | Elemental Weak | |
+| `0x15` | uchar | Elemental Potency | |
+| `0x16-0x18` | uchar[3] | `0x00` Padding | | 
+<details>
+<summary>Table as code block</summary>
 ```
 0x01-0x02 ushort HP
 0x03-0x04 ushort MP
@@ -65,9 +129,12 @@ Item attributes are a 24 byte structure
 0x06 uchar MAG
 0x07 uchar VIT
 0x08 uchar SPD
-0x09-0x0a ushort bad_status
-0x0b-0x0c ushort good_status
-0x0d-0x0e ushort immunity
+0x09 uchar bad_status_1
+0x0a uchar bad_status_2
+0x0b uchar good_status_1
+0x0c uchar good_status_2
+0x0d uchar immunity_1
+0x0e uchar immunity_2
 0x0f uchar ?? // Potentially EOF flag or Ribbon flag
 0x10 uchar // Padding
 0x11 uchar elm_absorb
@@ -77,6 +144,7 @@ Item attributes are a 24 byte structure
 0x15 uchar elm_potency
 0x16-0x18 uchar[3] // Padding
 ```
+</details>
 
 ## Weapon DMG Formula
 ```
@@ -91,8 +159,7 @@ Item attributes are a 24 byte structure
 68 Mace
 ```
 
-## Elemental and Status Values
-### Elemental
+## Elemental Values
 Elements can be grouped by adding their values together
 ```
 01 Fire
@@ -106,7 +173,8 @@ Elements can be grouped by adding their values together
 80 Dark
 ```
 
-### On-Equip (Good) Statuses
+## Statuses
+### "Good" Statuses
 #### Group 1
 ```
 01 Disease
@@ -130,7 +198,7 @@ Elements can be grouped by adding their values together
 80 X-Zone
 ```
 
-### (Bad) Status Immunities
+### "Bad" Statuses
 #### Group 1
 ```
 01 Death/Instant KO
