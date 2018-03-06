@@ -55,6 +55,7 @@ Items are organized in 52 byte structures
 | `0x31` | uchar | **??** | See note above. Values here are either `0x00` or `0x01` |
 | `0x32` | uchar | Render Model | Flag values `0x00` (Invisible) or `0x77` (Visible) |
 | `0x32` | uchar | `0x00` Padding | |
+
 <details>
 <summary>Table as code block</summary>
 ```
@@ -112,14 +113,15 @@ Item attributes are a 24 byte structure
 | `0x0b-0x0c` | uchar | Equip Good Statuses Group 2 | See [good status effects group 2](#group-2) |
 | `0x0d` | uchar | Immunities Group 1 | See [bad status effects group 1](#group-1-1) |
 | `0x0e` | uchar | Immunities Group 2 | See [bad status effects group 2](#group-2-1) |
-| `0x0f` | uchar | **??** | Ribbon Flag |
+| `0x0f` | uchar | **??** | Ribbon Flag | |
 | `0x10` | uchar | `0x00` Padding | |
 | `0x11` | uchar | Elemntal Absorb | |
 | `0x12` | uchar | Elemental Immune | |
 | `0x13` | uchar | Elemental Half | |
 | `0x14` | uchar | Elemental Weak | |
 | `0x15` | uchar | Elemental Potency | |
-| `0x16-0x18` | uchar[3] | `0x00` Padding | | 
+| `0x16-0x18` | uchar[3] | `0x00` Padding | |
+
 <details>
 <summary>Table as code block</summary>
 ```
