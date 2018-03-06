@@ -26,12 +26,12 @@ uchar // ENUM (4 ^ 1, 2, 3, 4 ...)
 uchar order_byte_a
 uchar order_byte_b
 uchar[6] // Padding
-uchar ?? // Values 0x00, 0x01, 0x02
+uchar metal_value // 0x00, 0x01, 0x02, 0x03, 0x05
 uchar ?? // Values 0x12, 0x17, 0x18, 0x19, 0x12, 0x1a, 0xff
 ushort gil_value
 uchar[4] // Padding
-uchar armor_eva // Something different for weapons
-uchar armor_meva // Something different for weapons
+uchar shield_eva, armor_def // Something different for weapons
+uchar weap_dmg_formula, shield_meva, armor_mresist
 uchar weap_atk // Something different for armor
 uchar weap_knockback // Something different for armor
 uchar crit_combo_rate
@@ -76,6 +76,19 @@ uchar elm_half
 uchar elm_weak
 uchar elm_potency
 uchar[3] // Padding
+```
+
+## Weapon DMG Formula
+```
+14 Strength (Sword, Spear, Rod)
+15 Speed (Ninja Sword, Dagger)
+16 Magick (Katana, Staff)
+17 Vitality (Axe, Hammer, Hand-bomb)
+18 Pole
+19 Bow
+1A Cross-bow
+1B Pierce (Gun, Measure, Healing Rods)
+68 Mace
 ```
 
 ## Elemental and Status Values
@@ -141,6 +154,9 @@ Elements can be grouped by adding their values together
 40 Immobilize
 80 Slow
 ```
+
+## Additional Work Needed
+* We're still missing how several values work for the item structure, please see ?? values above
 
 ## Credits
 * SwarnaD
