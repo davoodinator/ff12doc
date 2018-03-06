@@ -18,6 +18,7 @@ __Note:__ It's odd that the header contains information about the item total and
 
 ## Items
 Items are organized in 52 byte structures
+
 | Byte Reference | Data Type | Data Description | Notes |
 | -------------- | --------- | ---------------- | ----- |
 | `0x00-0x03` | uint | Weapon ID | Add 2048 to get the value in the save editor XML. Some values may not line up correctly due to zodiac items being added |
@@ -101,6 +102,7 @@ Items are organized in 52 byte structures
 
 ## Attributes
 Item attributes are a 24 byte structure
+
 | Byte Reference | Data Type | Description | Notes |
 | -------------- | --------- | ----------- | ----- |
 | `0x01-0x02` | ushort | HP | |
