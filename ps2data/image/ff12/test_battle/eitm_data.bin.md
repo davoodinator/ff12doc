@@ -25,17 +25,17 @@ Items are organized in 52 byte structures
 | Byte Reference | Data Type | Data Description | Notes |
 | -------------- | --------- | ---------------- | ----- |
 | `0x00-0x03` | uint | Weapon ID | Add 2048 to get the value in the save editor XML. Some values may not line up correctly due to zodiac items being added |
-| `0x04-0x05` | ushort | Item Type | |
+| `0x04-0x05` | ushort | Item Type | `0x04` is related to menu icon and might be split from `0x05` |
 | `0x06` | uchar | **??** | Follows the grouping of item type **Needs testing** |
 | `0x07` | uchar | **??** | A ENUM of some sort. Follows the power of 4 **Needs Testing** |
 | `0x08` | uchar | Order A | The order in which the item will appear within its item type |
-| `0x09` | uchar | Order B | The order in which the item will appear relative to all other items |
+| `0x09` | uchar | Order B | The order in which the item will appear relative to all other items. Class Description. |
 | `0x0a-0x0f` | uchar[6] | `0x00` Padding | |
 | `0x10` | uchar | Metal Value | The metal value of the item (`0x00, 0x01, 0x02, 0x03, 0x05`) |
-| `0x11` | uchar | **??** | Values are `0x12, 0x17, 0x18, 0x19, 0x12, 0x1a, 0xff` **Needs Testing** |
+| `0x11` | uchar | Equip Restrictions | See [equip restrictions](#equip-restrictions) for more values |
 | `0x12-0x13` | ushort | Gil Value | |
 | `0x14-0x17` | uchar[4] | `0x00` Padding |  Bytes `0x14-0x15` might be related to Gil Value for uint data type |
-| `0x18` | uchar | Shield Evasion / Armor Defense | |
+| `0x18` | uchar | Shield Evasion / Armor Defense | Unknown what this does for weapons **Needs Testing** |
 | `0x19` | uchar | Weapon Damage Formula / Shield M.Eva / Armor M.Resist | See [weapon damage formula section](#weapon-dmg-formula) for specific values |
 | `0x1a` | uchar | Weapon ATK / **??** | Unknown what this does for armor **Needs Testing** |
 | `0x1b` | uchar | Weapon Knockback / **??** | Uknown what this does for armor **Needs Testing** |
@@ -47,16 +47,14 @@ Items are organized in 52 byte structures
 | `0x21` | uchar | Bad Effect 2 | See [bad status effects group 2](#group-2-1) for specific values |
 | `0x22` | uchar | Good Effect 1 | See [good status effects group 1](#group-1) for specific values |
 | `0x23` | uchar | Good Effect 2 | See [good status effects group 2](#group-2) for specific values |
-| `0x24` | uchar | **??** | Unknown. Bytes `0x24-0x26` may be related to icon and model **Needs Testing** |
-| `0x25` | uchar | **??** | Unknown, see byte `0x24` |
-| `0x26` | uchar | **??** | Unknown, see byte `0x24` |
+| `0x24` | uchar | **??** | Unknown **Needs Testing** |
+| `0x25-0x26` | ushort | Weapon Stance | See [weapon stances](#weapon-stance) for more values |
 | `0x27` | uchar | CT | |
 | `0x28-0x2b` | uint | Additional Attributes | See [attributes](#attributes) section for more information |
-| `0x2c` | uchar | **??** | Unknown |
-| `0x2d` | uchar | **??** | Values are 0x00 or 0x80 |
+| `0x2c` | uchar | **??** | Unknown **Needs Testing** |
+| `0x2d` | uchar | **??** | Values are 0x00 or 0x80 **Needs Testing** |
 | `0x2e-0x2f` | uchar | `0x00` Padding | See notes for byte `0x30` |
-| `0x30` | uchar | **??** | Bytes `0x2e-0x31` may all be related as a uint **Needs testing** |
-| `0x31` | uchar | **??** | See note above. Values here are either `0x00` or `0x01` |
+| `0x30-0x31` | uchar | Weapon Model | May also encompass bytes `0x2e-0x2f` for a uint. See [weapon models](#weapon-models) for more values |
 | `0x32` | uchar | Render Model | Flag values `0x00` (Invisible) or `0x77` (Visible) |
 | `0x33` | uchar | `0x00` Padding | |
 
@@ -66,14 +64,14 @@ Items are organized in 52 byte structures
     </summary>
 
     0x00-0x03 uint weapon_id // If you add 2048 to this number it will match up in the XMLs
-    0x04-0x05 ushort item_type // Item Type or Category
+    0x04-0x05 ushort item_type // Item Type or Category, Icon in menu
     0x06 uchar // ?? Follows grouping of item type
     0x07 uchar // ENUM (4 ^ 1, 2, 3, 4 ...)
     0x08 uchar order_byte_a
-    0x09 uchar order_byte_b
+    0x09 uchar order_byte_b // Weapon Class Description.
     0x0a-0x0f uchar[6] // Padding
     0x10 uchar metal_value // 0x00, 0x01, 0x02, 0x03, 0x05
-    0x11 uchar ?? // Values 0x12, 0x17, 0x18, 0x19, 0x12, 0x1a, 0xff
+    0x11 uchar equip_restrictions // Values 0x12, 0x17, 0x18, 0x19, 0x12, 0x1a, 0xff
     0x12-0x13 ushort gil_value
     0x14-0x17 uchar[4] // Padding
     0x18 uchar shield_eva, armor_def // Something different for weapons
@@ -89,15 +87,13 @@ Items are organized in 52 byte structures
     9x22 uchar good_effect_1
     0x23 uchar good_effect_2
     0x24 uchar ?? // 
-    0x25 uchar ?? // THese three bytes may be related to icons and models
-    0x26 uchar ?? //
+    0x25-0x26 ushort ?? // Weapon stance
     0x27 uchar ct
     0x28-0x2b uint attributes // Offset to attribute (attribute_start_byte + this value)
     0x2c uchar ??
     0x2d uchar ?? // 0x00 or 0x80
     0x2e-0x2f uchar[2] // Padding
-    0x30 uchar // ??
-    0x31 uchar // ?? Flag (0x00, 0x01) or part of uchar before to make a ushort value
+    0x30-0x31 ushort weapon_model // May include bytes 0x2e-0x2f for a uint
     0x32 uchar render_model // 0x00 or 0x77
     0x33 uchar // Padding for 52 byte
 
@@ -168,6 +164,29 @@ Item attributes are a 24 byte structure
 1A Cross-bow
 1B Pierce (Gun, Measure, Healing Rods)
 68 Mace
+```
+
+## Equip Restrictions 
+__This section is incomplete__
+```
+12 Weapon + Offhand 
+17 Weapon + Arrows
+18 Weapon + Bolts
+19 ??
+1a ??
+ff Two Hands
+```
+
+## Weapon Stances
+__This section is incomplete__
+```
+01 03 1H Sword
+02 11 Bow
+```
+
+## Weapon Models
+__This section is incomplete__
+```
 ```
 
 ## Elemental Values
