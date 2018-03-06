@@ -122,7 +122,7 @@ Item attributes are a 24 byte structure
 | `0x0e` | uchar | Immunities Group 2 | See [bad status effects group 2](#group-2-1) |
 | `0x0f` | uchar | **??** | Ribbon Flag | |
 | `0x10` | uchar | `0x00` Padding | |
-| `0x11` | uchar | Elemntal Absorb | |
+| `0x11` | uchar | Elemental Absorb | |
 | `0x12` | uchar | Elemental Immune | |
 | `0x13` | uchar | Elemental Half | |
 | `0x14` | uchar | Elemental Weak | |
