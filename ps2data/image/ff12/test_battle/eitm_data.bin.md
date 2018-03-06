@@ -26,8 +26,8 @@ Items are organized in 52 byte structures
 | -------------- | --------- | ---------------- | ----- |
 | `0x00-0x03` | uint | Weapon ID | Add 2048 to get the value in the save editor XML. Some values may not line up correctly due to zodiac items being added |
 | `0x04-0x05` | ushort | Item Type | `0x04` is related to menu icon and might be split from `0x05` |
-| `0x06` | uchar | **??** | Follows the grouping of item type **Needs testing** |
-| `0x07` | uchar | **??** | A ENUM of some sort. Follows the power of 4 **Needs Testing** |
+| `0x06` | uchar | **??** | **Needs testing**<br> Follows the grouping of item type |
+| `0x07` | uchar | **??** | **Needs testing**<br> A ENUM of some sort. Follows the power of 4 |
 | `0x08` | uchar | Order A | The order in which the item will appear within its item type |
 | `0x09` | uchar | Order B | The order in which the item will appear relative to all other items. Class Description. |
 | `0x0a-0x0f` | uchar[6] | `0x00` Padding | |
@@ -35,10 +35,10 @@ Items are organized in 52 byte structures
 | `0x11` | uchar | Equip Restrictions | See [equip restrictions](#equip-restrictions) for more values |
 | `0x12-0x13` | ushort | Gil Value | |
 | `0x14-0x17` | uchar[4] | `0x00` Padding |  Bytes `0x14-0x15` might be related to Gil Value for uint data type |
-| `0x18` | uchar | Shield Evasion / Armor Defense | Unknown what this does for weapons **Needs Testing** |
+| `0x18` | uchar | Shield Evasion / Armor Defense | **Needs testing**<br> Unknown what this does for weapons |
 | `0x19` | uchar | Weapon Damage Formula / Shield M.Eva / Armor M.Resist | See [weapon damage formula section](#weapon-dmg-formula) for specific values |
-| `0x1a` | uchar | Weapon ATK / **??** | Unknown what this does for armor **Needs Testing** |
-| `0x1b` | uchar | Weapon Knockback / **??** | Uknown what this does for armor **Needs Testing** |
+| `0x1a` | uchar | Weapon ATK / **??** | **Needs testing**<br> Unknown what this does for armor|
+| `0x1b` | uchar | Weapon Knockback / **??** | **Needs testing**<br> Uknown what this does for armor |
 | `0x1c` | uchar | Critical % / Combo Rate | |
 | `0x1d` | uchar | Weapon Evasion | |
 | `0x1e` | uchar | Elemental Effect | See [elemental effects](#elemental-values) for specific values |
@@ -47,14 +47,14 @@ Items are organized in 52 byte structures
 | `0x21` | uchar | Bad Effect 2 | See [bad status effects group 2](#group-2-1) for specific values |
 | `0x22` | uchar | Good Effect 1 | See [good status effects group 1](#group-1) for specific values |
 | `0x23` | uchar | Good Effect 2 | See [good status effects group 2](#group-2) for specific values |
-| `0x24` | uchar | **??** | Unknown **Needs Testing** |
+| `0x24` | uchar | **??** | **Needs testing**<br> Unknown |
 | `0x25-0x26` | ushort | Weapon Stance | See [weapon stances](#weapon-stance) for more values |
 | `0x27` | uchar | CT | |
 | `0x28-0x2b` | uint | Additional Attributes | See [attributes](#attributes) section for more information |
-| `0x2c` | uchar | **??** | Unknown **Needs Testing** |
-| `0x2d` | uchar | **??** | Values are 0x00 or 0x80 **Needs Testing** |
+| `0x2c` | uchar | **??** | **Needs testing**<br> Unknown |
+| `0x2d` | uchar | **??** | **Needs testing**<br> Values are 0x00 or 0x80 |
 | `0x2e-0x2f` | uchar | `0x00` Padding | See notes for byte `0x30` |
-| `0x30-0x31` | uchar | Weapon Model | May also encompass bytes `0x2e-0x2f` for a uint. See [weapon models](#weapon-models) for more values |
+| `0x30-0x31` | uchar | Weapon Model | See [weapon models](#weapon-models) for more values.<br> May also encompass bytes `0x2e-0x2f` for a uint.  |
 | `0x32` | uchar | Render Model | Flag values `0x00` (Invisible) or `0x77` (Visible) |
 | `0x33` | uchar | `0x00` Padding | |
 
@@ -154,111 +154,117 @@ Item attributes are a 24 byte structure
 </details>
 
 ## Weapon DMG Formula
-```
-14 Strength (Sword, Spear, Rod)
-15 Speed (Ninja Sword, Dagger)
-16 Magick (Katana, Staff)
-17 Vitality (Axe, Hammer, Hand-bomb)
-18 Pole
-19 Bow
-1A Cross-bow
-1B Pierce (Gun, Measure, Healing Rods)
-68 Mace
-```
+Value | Description
+:---: | ---
+`14` | Strength (Sword, Spear, Rod)
+`15` | Speed (Ninja Sword, Dagger)
+`16` | Magick (Katana, Staff)
+`17` | Vitality (Axe, Hammer, Hand-bomb)
+`18` | Pole
+`19` | Bow
+`1A` | Crossbow
+`1B` | Pierce (Gun, Measure, Healing Rods)
+`68` | Mace
 
 ## Equip Restrictions 
 __This section is incomplete__
-```
-12 Weapon + Offhand 
-17 Weapon + Arrows
-18 Weapon + Bolts
-19 ??
-1a ??
-ff Two Hands
-```
+
+Value | Description
+:---: | ---
+`12` | Weapon + Offhand
+`17` | Weapon + Arrows
+`18` | Weapon + Bolts
+`19` | **??**
+`1a` | **??**
+`ff` | Two Hands
 
 ## Weapon Stances
 __This section is incomplete__
-```
-01 03 1H Sword
-02 11 Bow
-```
+
+Value | Description
+:---: | ---
+`01 03` | 1H Sword
+`02 11` | Bow
 
 ## Weapon Models
 __This section is incomplete__
-```
-```
+
+Value | Description
+:---: | ---
+`45 00` | Ragnarok
 
 ## Elemental Values
-Elements can be grouped by adding their values together
-```
-01 Fire
-02 Lightning
-04 Ice
-08 Earth
-10 Water
-20 Wind
-24 Wind + Ice
-40 Holy
-80 Dark
-```
+Elements can be grouped by adding their values together (e.g 20 + 04 = 24 for wind + ice)
+
+Value | Description
+:---: | ---
+`01` | Fire
+`02` | Lightning
+`04` | Ice
+`08` | Earth
+`10` | Water
+`20` | Wind
+`40` | Holy
+`80` | Dark
 
 ## Statuses
 ### "Good" Statuses
 #### Group 1
-```
-01 Disease
-02 Lure
-04 Protect
-08 Shell
-10 Haste
-20 Bravery
-40 Faith
-80 Reflect
-```
+Value | Description
+:---: | ---
+`01` | Disease
+`02` | Lure
+`04` | Protect
+`08` | Shell
+`10` | Haste
+`20` | Bravery
+`40` | Faith
+`80` | Reflect
+
 #### Group 2
-```
-01 Vanish
-02 Regen
-04 Float
-08 Berserk
-10 Bubble
-20 Critical HP
-40 Libra
-80 X-Zone
-```
+Value | Description
+:---: | ---
+`01` | Vanish
+`02` | Regen
+`04` | Float
+`08` | Berserk
+`10` | Bubble
+`20` | Critical HP
+`40` | Libra
+`80` | X-Zone
 
 ### "Bad" Statuses
 #### Group 1
-```
-01 Death/Instant KO
-02 Stone
-04 Petrify
-08 Stop
-10 Sleep
-20 Confuse
-40 Doom
-80 Blind
-```
+Value | Description
+:---: | ---
+`01` | Death/Instant KO
+`02` | Stone
+`04` | Petrify
+`08` | Stop
+`10` | Sleep
+`20` | Confuse
+`40` | Doom
+`80` | Blind
 
 #### Group 2
-```
-01 Poison
-02 Silence
-04 Sap
-08 Oil
-10 Reverse
-20 Disable
-40 Immobilize
-80 Slow
-```
+Value | Description
+:---: | ---
+`01` | Poison
+`02` | Silence
+`04` | Sap
+`08` | Oil
+`10` | Reverse
+`20` | Disable
+`40` | Immobilize
+`80` | Slow
 
 ## Additional Work Needed
 * We're still missing how several values work for the item structure, please see ?? values above
 
 ## Credits
-* SwarnaD
-* shinseikuevangerion
-* phoenik
-* watafuzz
+* @SwarnaD
+* @shinseikuevangerion
+* @phoenik
+* @watafuzz
+* Sakhari (Steam)
 
