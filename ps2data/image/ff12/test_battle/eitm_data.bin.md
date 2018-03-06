@@ -31,7 +31,7 @@ Items are organized in 52 byte structures
 | `0x08` | uchar | Order A | The order in which the item will appear within its item type |
 | `0x09` | uchar | Order B | The order in which the item will appear relative to all other items |
 | `0x0a-0x0f` | uchar[6] | `0x00` Padding | |
-| `0x10` | uchar | Metal Vdalue | The metal value of the item (`0x00, 0x01, 0x02, 0x03, 0x05`) |
+| `0x10` | uchar | Metal Value | The metal value of the item (`0x00, 0x01, 0x02, 0x03, 0x05`) |
 | `0x11` | uchar | **??** | Values are `0x12, 0x17, 0x18, 0x19, 0x12, 0x1a, 0xff` **Needs Testing** |
 | `0x12-0x13` | ushort | Gil Value | |
 | `0x14-0x17` | uchar[4] | `0x00` Padding |  Bytes `0x14-0x15` might be related to Gil Value for uint data type |
