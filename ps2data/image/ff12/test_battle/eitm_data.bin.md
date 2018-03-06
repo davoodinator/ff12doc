@@ -20,9 +20,9 @@ __Note:__ It's odd that the header contains information about the item total and
 Items are organized in 52 byte structures
 ```
 uint weapon_id // If you add 2048 to this number it will match up in the XMLs
-ushort item_type?
-uchar ??
-uchar ??
+ushort item_type // Item Type or Category
+uchar dmg_formula // Damage Formula?
+uchar // ??
 uchar order_byte_a
 uchar order_byte_b
 uchar[6] // Padding
@@ -30,11 +30,11 @@ uchar ?? // Values 0x00, 0x01, 0x02
 uchar ?? // Values 0x12, 0x17, 0x18, 0x19, 0x12, 0x1a, 0xff
 ushort gil_value
 uchar[4] // Padding
-uchar armor_eva // Something different for weapons...
-uchar armor_meva // Something different for weapons...
-uchar weap_atk
-uchar knockback // Knockback? (0x00, 0x01)
-uchar crit_combo
+uchar armor_eva // Something different for weapons
+uchar armor_meva // Something different for weapons
+uchar weap_atk // Something different for armor
+uchar weap_knockback // Something different for armor
+uchar crit_combo_rate
 uchar weap_eva
 uchar elm_effect
 uchar on_hit_chance
@@ -45,17 +45,15 @@ uchar good_effect_2
 uchar ?? // 
 uchar ?? // THese three bytes may be related to icons and models
 uchar ?? //
-uchar counter
-uchar ??
-uchar ??
-uchar[2] // Padding
+uchar ct
+uint attributes // Offset to attribute (attribute_start_byte + this value)
 uchar ??
 uchar ?? // 0x00 or 0x80
 uchar[2] // Padding
-uchar // Attributes offset?
-uchar // Flag (0x00, 0x01)
-uchar render_model // EOF Flag, or Ribbon flag?
-uchar // Padding
+uchar // ??
+uchar // ?? Flag (0x00, 0x01) or part of uchar before to make a ushort value
+uchar render_model // 0x00 or 0x77
+uchar // Padding for 52 byte
 ```
 
 ## Attributes
@@ -70,7 +68,7 @@ uchar SPD
 ushort bad_status
 ushort good_status
 ushort immunity
-uchar ?? // Potentially EOF flag since only the last attribute has a value
+uchar ?? // Potentially EOF flag or Ribbon flag
 uchar // Padding
 uchar elm_absorb
 uchar elm_immune
@@ -95,7 +93,7 @@ Elements can be grouped by adding their values together
 80 Dark
 ```
 
-### On-Equip Statuses
+### On-Equip (Good) Statuses
 #### Group 1
 ```
 01 Disease
@@ -119,7 +117,7 @@ Elements can be grouped by adding their values together
 80 X-Zone
 ```
 
-### Status Immunities
+### (Bad) Status Immunities
 #### Group 1
 ```
 01 Death/Instant KO
@@ -143,6 +141,12 @@ Elements can be grouped by adding their values together
 40 Immobilize
 80 Slow
 ```
+
+## Credits
+* SwarnaD
+* shinseikuevangerion
+* phoenik
+* watafuzz
 
 --- Original information
 
