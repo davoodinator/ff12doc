@@ -19,63 +19,63 @@ __Note:__ It's odd that the header contains information about the item total and
 ## Items
 Items are organized in 52 byte structures
 ```
-uint weapon_id // If you add 2048 to this number it will match up in the XMLs
-ushort item_type // Item Type or Category
-uchar // ?? Follows grouping of item type
-uchar // ENUM (4 ^ 1, 2, 3, 4 ...)
-uchar order_byte_a
-uchar order_byte_b
-uchar[6] // Padding
-uchar metal_value // 0x00, 0x01, 0x02, 0x03, 0x05
-uchar ?? // Values 0x12, 0x17, 0x18, 0x19, 0x12, 0x1a, 0xff
-ushort gil_value
-uchar[4] // Padding
-uchar shield_eva, armor_def // Something different for weapons
-uchar weap_dmg_formula, shield_meva, armor_mresist
-uchar weap_atk // Something different for armor
-uchar weap_knockback // Something different for armor
-uchar crit_combo_rate
-uchar weap_eva
-uchar elm_effect
-uchar on_hit_chance
-uchar bad_effect_1
-uchar bad_effect_2
-uchar good_effect_1
-uchar good_effect_2
-uchar ?? // 
-uchar ?? // THese three bytes may be related to icons and models
-uchar ?? //
-uchar ct
-uint attributes // Offset to attribute (attribute_start_byte + this value)
-uchar ??
-uchar ?? // 0x00 or 0x80
-uchar[2] // Padding
-uchar // ??
-uchar // ?? Flag (0x00, 0x01) or part of uchar before to make a ushort value
-uchar render_model // 0x00 or 0x77
-uchar // Padding for 52 byte
+0x00-0x03 uint weapon_id // If you add 2048 to this number it will match up in the XMLs
+0x04-0x05 ushort item_type // Item Type or Category
+0x06 uchar // ?? Follows grouping of item type
+0x07 uchar // ENUM (4 ^ 1, 2, 3, 4 ...)
+0x08 uchar order_byte_a
+0x09 uchar order_byte_b
+0x0a-0x0f uchar[6] // Padding
+0x10 uchar metal_value // 0x00, 0x01, 0x02, 0x03, 0x05
+0x11 uchar ?? // Values 0x12, 0x17, 0x18, 0x19, 0x12, 0x1a, 0xff
+0x12-0x13 ushort gil_value
+0x14-0x17 uchar[4] // Padding
+0x18 uchar shield_eva, armor_def // Something different for weapons
+0x19 uchar weap_dmg_formula, shield_meva, armor_mresist
+0x1a uchar weap_atk // Something different for armor
+0x1b uchar weap_knockback // Something different for armor
+0x1c uchar crit_combo_rate
+0x1d uchar weap_eva
+0x1e uchar elm_effect
+0x1f uchar on_hit_chance
+0x20 uchar bad_effect_1
+0x21 uchar bad_effect_2
+9x22 uchar good_effect_1
+0x23 uchar good_effect_2
+0x24 uchar ?? // 
+0x25 uchar ?? // THese three bytes may be related to icons and models
+0x26 uchar ?? //
+0x27 uchar ct
+0x28-0x2b uint attributes // Offset to attribute (attribute_start_byte + this value)
+0x2c uchar ??
+0x2d uchar ?? // 0x00 or 0x80
+0x2e-0x2f uchar[2] // Padding
+0x30 uchar // ??
+0x31 uchar // ?? Flag (0x00, 0x01) or part of uchar before to make a ushort value
+0x32 uchar render_model // 0x00 or 0x77
+0x33 uchar // Padding for 52 byte
 ```
 
 ## Attributes
 Item attributes are a 24 byte structure
 ```
-ushort HP
-ushort MP
-uchar STR
-uchar MAG
-uchar VIT
-uchar SPD
-ushort bad_status
-ushort good_status
-ushort immunity
-uchar ?? // Potentially EOF flag or Ribbon flag
-uchar // Padding
-uchar elm_absorb
-uchar elm_immune
-uchar elm_half
-uchar elm_weak
-uchar elm_potency
-uchar[3] // Padding
+0x01-0x02 ushort HP
+0x03-0x04 ushort MP
+0x05 uchar STR
+0x06 uchar MAG
+0x07 uchar VIT
+0x08 uchar SPD
+0x09-0x0a ushort bad_status
+0x0b-0x0c ushort good_status
+0x0d-0x0e ushort immunity
+0x0f uchar ?? // Potentially EOF flag or Ribbon flag
+0x10 uchar // Padding
+0x11 uchar elm_absorb
+0x12 uchar elm_immune
+0x13 uchar elm_half
+0x14 uchar elm_weak
+0x15 uchar elm_potency
+0x16-0x18 uchar[3] // Padding
 ```
 
 ## Weapon DMG Formula
