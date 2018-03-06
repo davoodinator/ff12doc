@@ -21,8 +21,8 @@ Items are organized in 52 byte structures
 ```
 uint weapon_id // If you add 2048 to this number it will match up in the XMLs
 ushort item_type // Item Type or Category
-uchar dmg_formula // Damage Formula?
-uchar // ??
+uchar // ?? Follows grouping of item type
+uchar // ENUM (4 ^ 1, 2, 3, 4 ...)
 uchar order_byte_a
 uchar order_byte_b
 uchar[6] // Padding
