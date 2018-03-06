@@ -35,11 +35,11 @@ Items are organized in 52 byte structures
 | `0x11` | uchar | Equip Restrictions | See [equip restrictions](#equip-restrictions) for more values |
 | `0x12-0x13` | ushort | Gil Value | |
 | `0x14-0x17` | uchar[4] | `0x00` Padding |  Bytes `0x14-0x15` might be related to Gil Value for uint data type |
-| `0x18` | uchar | Weapon Range / Shield Evasion / Armor Defense | Melee range is 10 (`0x0a`), Bows are 100 (`0x64`) |
-| `0x19` | uchar | Weapon Damage Formula / Shield M.Eva / Armor M.Resist | See [weapon damage formula section](#weapon-dmg-formula) for specific values |
-| `0x1a` | uchar | Weapon ATK / **??** | **Needs testing**<br> Unknown what this does for armor|
-| `0x1b` | uchar | Weapon Knockback / **??** | **Needs testing**<br> Uknown what this does for armor |
-| `0x1c` | uchar | Critical % / Combo Rate | |
+| `0x18` | uchar | Weapon Range<br> Shield Evasion<br> Armor Defense | Melee range is 10 (`0x0a`), Bows are 100 (`0x64`) |
+| `0x19` | uchar | Weapon Damage Formula<br> Shield M.Eva<br> Armor M.Resist | See [weapon damage formula section](#weapon-dmg-formula) for specific values |
+| `0x1a` | uchar | Weapon ATK<br> **??** | **Needs testing**<br> Unknown what this does for armor|
+| `0x1b` | uchar | Weapon Knockback | |
+| `0x1c` | uchar | Critical %<br> Combo Rate | |
 | `0x1d` | uchar | Weapon Evasion | |
 | `0x1e` | uchar | Elemental Effect | See [elemental effects](#elemental-values) for specific values |
 | `0x1f` | uchar | On-Hit Chance % | |
@@ -51,8 +51,8 @@ Items are organized in 52 byte structures
 | `0x25-0x26` | ushort | Weapon Stance | See [weapon stances](#weapon-stance) for more values |
 | `0x27` | uchar | CT | Weapon Charge Time |
 | `0x28-0x2b` | uint | Additional Attributes | See [attributes](#attributes) section for more information |
-| `0x2c` | uchar | **??** | **Needs testing**<br> Unknown |
-| `0x2d` | uchar | **??** | **Needs testing**<br> Values are 0x00 or 0x80 |
+| `0x2c` | uchar | **??** | **Needs testing**<br> Unknown. Applies to weeapons only. |
+| `0x2d` | uchar | **??** | **Needs testing**<br> Values are 0x00 or 0x80. Applies to weapons only. |
 | `0x2e-0x2f` | uchar | `0x00` Padding | See notes for byte `0x30` |
 | `0x30-0x31` | uchar | Weapon Model | See [weapon models](#weapon-models) for more values.<br> May also encompass bytes `0x2e-0x2f` for a uint.  |
 | `0x32` | uchar | Render Model | Flag values `0x00` (Invisible) or `0x77` (Visible) |
