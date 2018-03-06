@@ -35,7 +35,7 @@ Items are organized in 52 byte structures
 | `0x11` | uchar | Equip Restrictions | See [equip restrictions](#equip-restrictions) for more values |
 | `0x12-0x13` | ushort | Gil Value | |
 | `0x14-0x17` | uchar[4] | `0x00` Padding |  Bytes `0x14-0x15` might be related to Gil Value for uint data type |
-| `0x18` | uchar | Shield Evasion / Armor Defense | **Needs testing**<br> Unknown what this does for weapons |
+| `0x18` | uchar | Weapon Range / Shield Evasion / Armor Defense | Melee range is 10 (`0x0a`), Bows are 100 (`0x64`) |
 | `0x19` | uchar | Weapon Damage Formula / Shield M.Eva / Armor M.Resist | See [weapon damage formula section](#weapon-dmg-formula) for specific values |
 | `0x1a` | uchar | Weapon ATK / **??** | **Needs testing**<br> Unknown what this does for armor|
 | `0x1b` | uchar | Weapon Knockback / **??** | **Needs testing**<br> Uknown what this does for armor |
