@@ -49,7 +49,7 @@ Items are organized in 52 byte structures
 | `0x23` | uchar | Good Effect 2 | See [good status effects group 2](#group-2) for specific values |
 | `0x24` | uchar | **??** | **Needs testing**<br> Unknown |
 | `0x25-0x26` | ushort | Weapon Stance | See [weapon stances](#weapon-stance) for more values |
-| `0x27` | uchar | CT | |
+| `0x27` | uchar | CT | Weapon Charge Time |
 | `0x28-0x2b` | uint | Additional Attributes | See [attributes](#attributes) section for more information |
 | `0x2c` | uchar | **??** | **Needs testing**<br> Unknown |
 | `0x2d` | uchar | **??** | **Needs testing**<br> Values are 0x00 or 0x80 |
