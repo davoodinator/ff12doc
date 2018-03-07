@@ -37,7 +37,7 @@ Items are organized in 52 byte structures
 | `0x14-0x17` | uchar[4] | `0x00` Padding |  Bytes `0x14-0x15` might be related to Gil Value for uint data type |
 | `0x18` | uchar | Weapon Range<br> Shield Evasion<br> Armor Defense | Melee range is 10 (`0x0a`), Bows are 100 (`0x64`) |
 | `0x19` | uchar | Weapon Formula<br> Shield M.Eva<br> Armor M.Resist | See [weapon damage formula section](#weapon-dmg-formula) for specific values |
-| `0x1a` | uchar | Weapon ATK<br> **??** | **Needs testing**<br> Unknown what this does for armor|
+| `0x1a` | uchar | Weapon ATK<br> Armor Effect| See [armor effects](#armor-effects) for more values |
 | `0x1b` | uchar | Weapon Knockback | |
 | `0x1c` | uchar | Critical %<br> Combo Rate | |
 | `0x1d` | uchar | Weapon Evasion | |
@@ -162,7 +162,7 @@ Value | Description
 `02` | Cannot Sell
 `04` | Damage Flying
 `10` | Ignore Licenses
-`20` | Shield Armor
+`20` | Off Hand
 `40` | Head Armor
 `60` | Body Armor
 `80` | Accessory
@@ -206,6 +206,40 @@ __This section is incomplete__
 Value | Description
 :---: | ---
 `45 00` | Ragnarok
+
+## Armor Effects
+__This section is incomplete__
+
+Value | Description
+:---: | ---
+`FF` | None
+`02` | Improve chance to hit
+`04` | Improves chance of avoiding attacks
+`05` | Half Damage when HP Critical
+`06` | Counter normal attacks
+`07` | Improve chance to counter
+`08` | Increase magick power when HP Critical
+`09` | Increase damage while empty handed
+`0A` | Increase strength when HP Critical
+`0B` | Increase strength when HP is full
+`0C` | Obtained LP becomes Gil
+`0D` | Improve chance of scoring multiple hits
+`0E` | Double potentcy of restorative items
+`0F` | Reverse effects of restorative items
+`10` | Ignore weather and terrain effects
+`11` | Steal superior and rare items
+`12` | Improves magick accuracy
+`19` | Obtain superior items from chests
+`1B` | Double EXP Earned
+`1C` | Double LP
+`1D` | Reduce EXP earned to 0
+`1F` | Ignore Reflect
+`20` | Replace MP cost with Gil
+`24` | Half MP Cost
+`25` | Move saftely past traps
+`27` | Reduce MP to 0
+`67` | Increase magick power when HP is full
+`72` | Slightly increase HP
 
 ## Elemental Values
 Elements can be grouped by adding their values together (e.g 20 + 04 = 24 for wind + ice)
