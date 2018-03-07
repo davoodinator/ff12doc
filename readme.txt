@@ -1,3 +1,5 @@
+Discord @ https://discord.gg/xJPhhj2
+
 VBF Browser @ https://cdn.discordapp.com/attachments/252064925193601024/410483949794754581/VBFUnpackGUI.zip
 
 Steam discussion thread @ http://steamcommunity.com/app/595520/discussions/0/1700541698690214622/
