@@ -188,17 +188,34 @@ Value | Description
 `12` | Weapon + Offhand
 `17` | Weapon + Arrows
 `18` | Weapon + Bolts
-`19` | **??**
-`1a` | **??**
+`19` | Weapon + Bullet
+`1a` | Weapon + Bomb
 `ff` | Two Hands
 
 ## Weapon Stances
-__This section is incomplete__
 
 Value | Description
 :---: | ---
-`01 03` | 1H Sword
+`00 01` | Unarmed
+`01 01` | Unknown
+`01 03` | Sword
+`01 04` | Wyrmhero Blade
+`01 06` | Ninja Sword
 `02 11` | Bow
+`02 12` | Crossbow
+`02 14` | Gun
+`02 15` | Hand Bomb
+`03 02` | Dagger
+`03 08` | Mace
+`03 0A` | Measure
+`03 0B` | Axe
+`03 0C` | Hammer
+`04 07` | Staff
+`04 0D` | Rod
+`04 0E` | Pole
+`04 0F` | Spear
+`05 04` | Greatsword
+`05 05` | Katana
 
 ## Weapon Models
 __This section is incomplete__
