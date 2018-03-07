@@ -27,7 +27,7 @@ Items are organized in 52 byte structures
 | `0x00-0x03` | uint | Weapon ID | Add 2048 to get the value in the save editor XML. Some values may not line up correctly due to zodiac items being added |
 | `0x04-0x05` | ushort | Item Type | `0x04` is related to menu icon and might be split from `0x05` |
 | `0x06` | uchar | **??** | **Needs testing**<br> Follows the grouping of item type |
-| `0x07` | uchar | **??** | **Needs testing**<br> A ENUM of some sort. Follows the power of 4 |
+| `0x07` | uchar | Item Flags | See [item flags](#item-flags) for more values |
 | `0x08` | uchar | Order A | The order in which the item will appear within its item type |
 | `0x09` | uchar | Order B | The order in which the item will appear relative to all other items. Class Description. |
 | `0x0a-0x0f` | uchar[6] | `0x00` Padding | |
@@ -66,7 +66,7 @@ Items are organized in 52 byte structures
     0x00-0x03 uint weapon_id // If you add 2048 to this number it will match up in the XMLs
     0x04-0x05 ushort item_type // Item Type or Category, Icon in menu
     0x06 uchar // ?? Follows grouping of item type
-    0x07 uchar // ENUM (4 ^ 1, 2, 3, 4 ...)
+    0x07 uchar item_flags
     0x08 uchar order_byte_a
     0x09 uchar order_byte_b // Weapon Class Description.
     0x0a-0x0f uchar[6] // Padding
@@ -152,6 +152,20 @@ Item attributes are a 24 byte structure
     0x16-0x18 uchar[3] // Padding
 
 </details>
+
+## Item Flags
+These values are additive to combine flags
+
+Value | Description
+:---: | ---
+`00` | None
+`02` | Cannot Sell
+`04` | Damage Flying
+`10` | Ignore Licenses
+`20` | Shield Armor
+`40` | Head Armor
+`60` | Body Armor
+`80` | Accessory
 
 ## Weapon DMG Formula
 Value | Description
