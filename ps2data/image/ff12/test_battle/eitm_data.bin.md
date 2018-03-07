@@ -2,7 +2,7 @@
 eitm_data.bin holds information on weapons, armor, and accessories. The file is in __little endian__ format.
 
 ## Important Note
-Editing this file directly will have no effect on the game. This file is combined with other binaries into the `/test_battle/(locale)/binaryfile/battle_pack.bin`. Searching for the header inside of that file will give you the starting point of the file up until the next header (`73 74 32 65`).
+Editing this file directly will have no effect on the game. This file is combined with other binaries into the `/ps2data/image/ff12/test_battle/(locale)/binaryfile/battle_pack.bin`. Searching for the header inside of that file will give you the starting point of the file up until the next header (`73 74 32 65`).
 
 ## Header
 The header is 32 byte in size with the following structure
