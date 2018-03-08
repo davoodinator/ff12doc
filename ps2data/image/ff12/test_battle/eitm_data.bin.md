@@ -104,52 +104,52 @@ Item attributes are a 24 byte structure
 
 | Byte Reference | Data Type | Description | Notes |
 | -------------- | --------- | ----------- | ----- |
-| `0x01-0x02` | ushort | HP | |
-| `0x03-0x04` | ushort | MP | |
-| `0x05` | uchar | STR | |
-| `0x06` | uchar | MAG | |
-| `0x07` | uchar | VIT | |
-| `0x08` | uchar | SPD | |
-| `0x09` | uchar | Equip Bad Statuses Group 1 | See [bad status effects group 1](#group-1-1) |
-| `0x0a` | uchar | Equip Bad Statuses Group 2 | see [bad status effects group 2](#group-2-1) | 
-| `0x0b-0x0c` | uchar | Equip Good Statuses Group 1 | See [good status effects group 1](#group-1) |
-| `0x0b-0x0c` | uchar | Equip Good Statuses Group 2 | See [good status effects group 2](#group-2) |
-| `0x0d` | uchar | Immunities Group 1 | See [bad status effects group 1](#group-1-1) |
-| `0x0e` | uchar | Immunities Group 2 | See [bad status effects group 2](#group-2-1) |
-| `0x0f` | uchar | **??** | Ribbon Flag | |
-| `0x10` | uchar | `0x00` Padding | |
-| `0x11` | uchar | Elemental Absorb | |
-| `0x12` | uchar | Elemental Immune | |
-| `0x13` | uchar | Elemental Half | |
-| `0x14` | uchar | Elemental Weak | |
-| `0x15` | uchar | Elemental Potency | |
-| `0x16-0x18` | uchar[3] | `0x00` Padding | |
+| `0x00-0x01` | ushort | HP | |
+| `0x02-0x03` | ushort | MP | |
+| `0x04` | uchar | STR | |
+| `0x05` | uchar | MAG | |
+| `0x06` | uchar | VIT | |
+| `0x07` | uchar | SPD | |
+| `0x08` | uchar | Equip Bad Statuses Group 1 | See [bad status effects group 1](#group-1-1) |
+| `0x09` | uchar | Equip Bad Statuses Group 2 | see [bad status effects group 2](#group-2-1) | 
+| `0x0a` | uchar | Equip Good Statuses Group 1 | See [good status effects group 1](#group-1) |
+| `0x0b` | uchar | Equip Good Statuses Group 2 | See [good status effects group 2](#group-2) |
+| `0x0c` | uchar | Bad Immunities Group 1 | See [bad status effects group 1](#group-1-1) |
+| `0x0d` | uchar | Bad Immunities Group 2 | See [bad status effects group 2](#group-2-1) |
+| `0x0e` | uchar | Good Immunities Group 1 | See [good status effects group 1](#group-1) |
+| `0x0f` | uchar | Good Immunities Group 2 | See [good status effects group 2](#group-2) |
+| `0x10` | uchar | Elemental Absorb | |
+| `0x11` | uchar | Elemental Immune | |
+| `0x12` | uchar | Elemental Half | |
+| `0x13` | uchar | Elemental Weak | |
+| `0x14` | uchar | Elemental Potency | |
+| `0x15-0x17` | uchar[3] | `0x00` Padding | |
 
 <details>
     <summary>
     Table as code block
     </summary>
 
-    0x01-0x02 ushort HP
-    0x03-0x04 ushort MP
-    0x05 uchar STR
-    0x06 uchar MAG
-    0x07 uchar VIT
-    0x08 uchar SPD
-    0x09 uchar bad_status_1
-    0x0a uchar bad_status_2
-    0x0b uchar good_status_1
-    0x0c uchar good_status_2
-    0x0d uchar immunity_1
-    0x0e uchar immunity_2
-    0x0f uchar ?? // Potentially EOF flag or Ribbon flag
-    0x10 uchar // Padding
-    0x11 uchar elm_absorb
-    0x12 uchar elm_immune
-    0x13 uchar elm_half
-    0x14 uchar elm_weak
-    0x15 uchar elm_potency
-    0x16-0x18 uchar[3] // Padding
+    0x00-0x01 ushort HP
+    0x02-0x03 ushort MP
+    0x04 uchar STR
+    0x05 uchar MAG
+    0x06 uchar VIT
+    0x07 uchar SPD
+    0x08 uchar bad_status_1
+    0x09 uchar bad_status_2
+    0x0a uchar good_status_1
+    0x0b uchar good_status_2
+    0x0c uchar immunity_1
+    0x0d uchar immunity_2
+    0x0e uchar immunity_3
+    0x0f uchar immunity_4
+    0x10 uchar elm_absorb
+    0x11 uchar elm_immune
+    0x12 uchar elm_half
+    0x13 uchar elm_weak
+    0x14 uchar elm_potency
+    0x15-0x17 uchar[3] // Padding
 
 </details>
 
