@@ -2,7 +2,7 @@
 eitm_data.bin holds information on weapons, armor, and accessories. The file is in __little endian__ format.
 
 ## Important Note
-Editing this file directly will have no effect on the game. This file is combined with other binaries into the `/test_battle/(locale)/binaryfile/battle_pack.bin`. Searching for the header inside of that file will give you the starting point of the file up until the next header (`73 74 32 65`).
+Editing this file directly will have no effect on the game. This file is combined with other binaries into the `/ps2data/image/ff12/test_battle/(locale)/binaryfile/battle_pack.bin`. Searching for the header inside of that file will give you the starting point of the file up until the next header (`73 74 32 65`).
 
 ## Header
 The header is 32 byte in size with the following structure
@@ -27,7 +27,7 @@ Items are organized in 52 byte structures
 | `0x00-0x03` | uint | Weapon ID | Add 2048 to get the value in the save editor XML. Some values may not line up correctly due to zodiac items being added |
 | `0x04-0x05` | ushort | Item Type | `0x04` is related to menu icon and might be split from `0x05` |
 | `0x06` | uchar | **??** | **Needs testing**<br> Follows the grouping of item type |
-| `0x07` | uchar | **??** | **Needs testing**<br> A ENUM of some sort. Follows the power of 4 |
+| `0x07` | uchar | Item Flags | See [item flags](#item-flags) for more values |
 | `0x08` | uchar | Order A | The order in which the item will appear within its item type |
 | `0x09` | uchar | Order B | The order in which the item will appear relative to all other items. Class Description. |
 | `0x0a-0x0f` | uchar[6] | `0x00` Padding | |
@@ -37,7 +37,7 @@ Items are organized in 52 byte structures
 | `0x14-0x17` | uchar[4] | `0x00` Padding |  Bytes `0x14-0x15` might be related to Gil Value for uint data type |
 | `0x18` | uchar | Weapon Range<br> Shield Evasion<br> Armor Defense | Melee range is 10 (`0x0a`), Bows are 100 (`0x64`) |
 | `0x19` | uchar | Weapon Formula<br> Shield M.Eva<br> Armor M.Resist | See [weapon damage formula section](#weapon-dmg-formula) for specific values |
-| `0x1a` | uchar | Weapon ATK<br> **??** | **Needs testing**<br> Unknown what this does for armor|
+| `0x1a` | uchar | Weapon ATK<br> Armor Effect| See [armor effects](#armor-effects) for more values |
 | `0x1b` | uchar | Weapon Knockback | |
 | `0x1c` | uchar | Critical %<br> Combo Rate | |
 | `0x1d` | uchar | Weapon Evasion | |
@@ -66,7 +66,7 @@ Items are organized in 52 byte structures
     0x00-0x03 uint weapon_id // If you add 2048 to this number it will match up in the XMLs
     0x04-0x05 ushort item_type // Item Type or Category, Icon in menu
     0x06 uchar // ?? Follows grouping of item type
-    0x07 uchar // ENUM (4 ^ 1, 2, 3, 4 ...)
+    0x07 uchar item_flags
     0x08 uchar order_byte_a
     0x09 uchar order_byte_b // Weapon Class Description.
     0x0a-0x0f uchar[6] // Padding
@@ -104,54 +104,68 @@ Item attributes are a 24 byte structure
 
 | Byte Reference | Data Type | Description | Notes |
 | -------------- | --------- | ----------- | ----- |
-| `0x01-0x02` | ushort | HP | |
-| `0x03-0x04` | ushort | MP | |
-| `0x05` | uchar | STR | |
-| `0x06` | uchar | MAG | |
-| `0x07` | uchar | VIT | |
-| `0x08` | uchar | SPD | |
-| `0x09` | uchar | Equip Bad Statuses Group 1 | See [bad status effects group 1](#group-1-1) |
-| `0x0a` | uchar | Equip Bad Statuses Group 2 | see [bad status effects group 2](#group-2-1) | 
-| `0x0b-0x0c` | uchar | Equip Good Statuses Group 1 | See [good status effects group 1](#group-1) |
-| `0x0b-0x0c` | uchar | Equip Good Statuses Group 2 | See [good status effects group 2](#group-2) |
-| `0x0d` | uchar | Immunities Group 1 | See [bad status effects group 1](#group-1-1) |
-| `0x0e` | uchar | Immunities Group 2 | See [bad status effects group 2](#group-2-1) |
-| `0x0f` | uchar | **??** | Ribbon Flag | |
-| `0x10` | uchar | `0x00` Padding | |
-| `0x11` | uchar | Elemental Absorb | |
-| `0x12` | uchar | Elemental Immune | |
-| `0x13` | uchar | Elemental Half | |
-| `0x14` | uchar | Elemental Weak | |
-| `0x15` | uchar | Elemental Potency | |
-| `0x16-0x18` | uchar[3] | `0x00` Padding | |
+| `0x00-0x01` | ushort | HP | |
+| `0x02-0x03` | ushort | MP | |
+| `0x04` | uchar | STR | |
+| `0x05` | uchar | MAG | |
+| `0x06` | uchar | VIT | |
+| `0x07` | uchar | SPD | |
+| `0x08` | uchar | Equip Bad Statuses Group 1 | See [bad status effects group 1](#group-1-1) |
+| `0x09` | uchar | Equip Bad Statuses Group 2 | see [bad status effects group 2](#group-2-1) | 
+| `0x0a` | uchar | Equip Good Statuses Group 1 | See [good status effects group 1](#group-1) |
+| `0x0b` | uchar | Equip Good Statuses Group 2 | See [good status effects group 2](#group-2) |
+| `0x0c` | uchar | Bad Immunities Group 1 | See [bad status effects group 1](#group-1-1) |
+| `0x0d` | uchar | Bad Immunities Group 2 | See [bad status effects group 2](#group-2-1) |
+| `0x0e` | uchar | Good Immunities Group 1 | See [good status effects group 1](#group-1) |
+| `0x0f` | uchar | Good Immunities Group 2 | See [good status effects group 2](#group-2) |
+| `0x10` | uchar | Elemental Absorb | |
+| `0x11` | uchar | Elemental Immune | |
+| `0x12` | uchar | Elemental Half | |
+| `0x13` | uchar | Elemental Weak | |
+| `0x14` | uchar | Elemental Potency | |
+| `0x15-0x17` | uchar[3] | `0x00` Padding | |
 
 <details>
     <summary>
     Table as code block
     </summary>
 
-    0x01-0x02 ushort HP
-    0x03-0x04 ushort MP
-    0x05 uchar STR
-    0x06 uchar MAG
-    0x07 uchar VIT
-    0x08 uchar SPD
-    0x09 uchar bad_status_1
-    0x0a uchar bad_status_2
-    0x0b uchar good_status_1
-    0x0c uchar good_status_2
-    0x0d uchar immunity_1
-    0x0e uchar immunity_2
-    0x0f uchar ?? // Potentially EOF flag or Ribbon flag
-    0x10 uchar // Padding
-    0x11 uchar elm_absorb
-    0x12 uchar elm_immune
-    0x13 uchar elm_half
-    0x14 uchar elm_weak
-    0x15 uchar elm_potency
-    0x16-0x18 uchar[3] // Padding
+    0x00-0x01 ushort HP
+    0x02-0x03 ushort MP
+    0x04 uchar STR
+    0x05 uchar MAG
+    0x06 uchar VIT
+    0x07 uchar SPD
+    0x08 uchar bad_status_1
+    0x09 uchar bad_status_2
+    0x0a uchar good_status_1
+    0x0b uchar good_status_2
+    0x0c uchar immunity_1
+    0x0d uchar immunity_2
+    0x0e uchar immunity_3
+    0x0f uchar immunity_4
+    0x10 uchar elm_absorb
+    0x11 uchar elm_immune
+    0x12 uchar elm_half
+    0x13 uchar elm_weak
+    0x14 uchar elm_potency
+    0x15-0x17 uchar[3] // Padding
 
 </details>
+
+## Item Flags
+These values are additive to combine flags
+
+Value | Description
+:---: | ---
+`00` | None
+`02` | Cannot Sell
+`04` | Damage Flying
+`10` | Ignore Licenses
+`20` | Off Hand
+`40` | Head Armor
+`60` | Body Armor
+`80` | Accessory
 
 ## Weapon DMG Formula
 Value | Description
@@ -174,17 +188,34 @@ Value | Description
 `12` | Weapon + Offhand
 `17` | Weapon + Arrows
 `18` | Weapon + Bolts
-`19` | **??**
-`1a` | **??**
+`19` | Weapon + Bullet
+`1a` | Weapon + Bomb
 `ff` | Two Hands
 
 ## Weapon Stances
-__This section is incomplete__
 
 Value | Description
 :---: | ---
-`01 03` | 1H Sword
+`00 01` | Unarmed
+`01 01` | Unknown
+`01 03` | Sword
+`01 04` | Wyrmhero Blade
+`01 06` | Ninja Sword
 `02 11` | Bow
+`02 12` | Crossbow
+`02 14` | Gun
+`02 15` | Hand Bomb
+`03 02` | Dagger
+`03 08` | Mace
+`03 0A` | Measure
+`03 0B` | Axe
+`03 0C` | Hammer
+`04 07` | Staff
+`04 0D` | Rod
+`04 0E` | Pole
+`04 0F` | Spear
+`05 04` | Greatsword
+`05 05` | Katana
 
 ## Weapon Models
 __This section is incomplete__
@@ -192,6 +223,40 @@ __This section is incomplete__
 Value | Description
 :---: | ---
 `45 00` | Ragnarok
+
+## Armor Effects
+__This section is incomplete__
+
+Value | Description
+:---: | ---
+`FF` | None
+`02` | Improve chance to hit
+`04` | Improves chance of avoiding attacks
+`05` | Half Damage when HP Critical
+`06` | Counter normal attacks
+`07` | Improve chance to counter
+`08` | Increase magick power when HP Critical
+`09` | Increase damage while empty handed
+`0A` | Increase strength when HP Critical
+`0B` | Increase strength when HP is full
+`0C` | Obtained LP becomes Gil
+`0D` | Improve chance of scoring multiple hits
+`0E` | Double potentcy of restorative items
+`0F` | Reverse effects of restorative items
+`10` | Ignore weather and terrain effects
+`11` | Steal superior and rare items
+`12` | Improves magick accuracy
+`19` | Obtain superior items from chests
+`1B` | Double EXP Earned
+`1C` | Double LP
+`1D` | Reduce EXP earned to 0
+`1F` | Ignore Reflect
+`20` | Replace MP cost with Gil
+`24` | Half MP Cost
+`25` | Move saftely past traps
+`27` | Reduce MP to 0
+`67` | Increase magick power when HP is full
+`72` | Slightly increase HP
 
 ## Elemental Values
 Elements can be grouped by adding their values together (e.g 20 + 04 = 24 for wind + ice)
